@@ -2,7 +2,11 @@
 基于ThinkPHP3.2、jquery、bootstrap 开发的物流平台，实现管理员的RABC的权限管理。
 拥有快递CURD操作、面单打印，扫码枪录入、快递状态查询等功能。
 
-## 数据库名：haoxun_express
+## 环境搭建
+推荐使用WAMP集成工具进行搭建
+数据库名为 haoxun_express，数据库的sql文件是目录下的
+  haoxun_express.sql 文件
+  
 可在 Application/common/config 最上面配置
 
 ## jQ:
