@@ -1,0 +1,87 @@
+@CHARSET "UTF-8";
+/* Bootstrap Fix*/
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  background-color: #A3C7E3;
+  border-color: #A3C7E3;
+}
+.headline{
+	position: relative;
+	top: 30px;
+}
+.headline h3{
+	display: inline-block;
+	background-color: #65A8DC;
+	color: #fff;
+	padding: 10px;
+}
+.headline ol{
+	position: relative;
+}
+.triangle-lg{
+	position: relative;
+	left: 18px;
+	top: 15px;
+	font-size: 49px;
+	color: #65A8DC;
+}
+.triangle-lg2 {
+    position: relative;
+    left: -18px;
+    top: 15px;
+    font-size: 49px;
+    color: #65A8DC;
+}
+
+.article-list a{
+	font-size: 16px;
+	color: #000;
+}
+.article-list a:hover{
+	font-size: 16px;
+	color:  #A7BBFC;
+}
+.article-title{
+	font-size: 20px;
+	font-weight: 600;
+}
+.article-info{
+	padding-top: 10px;
+	color: #000;
+	font-weight: 500;
+}
+.article-content{
+	padding-top: 50px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.paging{
+    padding: 4px 8px;
+}
+.paging a{
+    color: #030303;
+}
+.paging a:hover{
+    color: #8c8c8c;
+}
+
+.tips{
+    font-size: 15px;
+    font-weight: bold;
+}
+@media(min-width: 760px) {
+    article img{
+        width: 800px! ;
+    }
+}
+@media(max-width: 760px){
+    article img{
+        width: 300px!important;
+
+    }
+}
+/*.headline h3:before{*/
+    /*content: '|    ';*/
+    /*font-size: 30px;*/
+    /*font-weight: bold;*/
+    /*color: #0044cc;*/
+/*}*/

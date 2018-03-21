@@ -1,0 +1,117 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>在线充值 - {$Think.config.title}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="alternate icon" type="image/png" href="/favicon.ico">
+		<link rel="stylesheet" href="__ys__/css/amazeui.min.css" />
+		<link rel="stylesheet" href="__ys__/css/admin.css" />
+		<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+		<script src="__ys__/layer/layer.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			
+			function tijiao() {
+				var my = $('#my').val();
+				var tid = $('#tid').val();
+				var isNotError = true;
+				var reg = /^[1-9]{1}[0-9]{0,10}[.]{0,1}[0-9]{0,2}$/;
+				if(!reg.test(my)){
+					layer.alert('请输入充值金额：数字！', {icon: 5});
+					isNotError = false;
+					return;
+				}
+				$("#tp_form").attr("action","/index.php/Home/index/cz.html?my="+my+"&tid="+tid);
+				$('#ftp').click();
+				$('#tp_form').submit();
+			}
+		</script>
+	</head>
+
+	<body>
+		<include file="./tm/yi/top.html" />
+		<div class="admin-content">
+			<div class="admin-content-body">
+				<div class="am-cf am-padding am-padding-bottom-0">
+					<div class="am-fl am-cf">
+						<strong class="am-text-primary am-text-lg">在线充值</strong>
+					</div>
+				</div>
+				<hr/>
+				<div class="am-g am-fl  am-g-fixed">
+					<div class="am-u-lg-8  am-u-lg-offset-0">
+						<form class="am-form am-form-horizontal" id="tp_form" action="/Hone/index/cz.html" name="form1" method="post" target="_blank">
+						<input type="hidden" value="1" name="names"/>
+							<div class="am-form-group">
+								<label for="user-phone" class="am-u-sm-3 am-form-label">支付宝 *</label>
+								<div class="am-u-sm-9">
+									<div class="pay-bank-list clearfix payBankList">
+										<ul class="pay-bank" style="height: 50px;">
+											<li class="on" id="zhifu">
+												<img src="__ys__/img/zfb.gif" title="支付宝"><i></i>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="am-form-group">
+								<label for="user-phone" class="am-u-sm-3 am-form-label">微信支付 *</label>
+								<div class="am-u-sm-9">
+									<div class="pay-bank-list clearfix payBankList">
+										<ul class="pay-bank" style="height: 50px;">
+											<li class="" id="weixin">
+												<img src="__ys__/img/wx.gif" title="微信"><i></i>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="am-form-group">
+								<label for="user-phone" class="am-u-sm-3 am-form-label">充值金额 *</label>
+								<div class="am-u-sm-9">
+									<input type="text" name="my" id="my" value="">
+								</div>
+							</div>
+							<input type="hidden" name="tid" id="tid" value="1" />
+
+							<div class="am-form-group">
+								<div class="am-u-sm-9 am-u-sm-push-3">
+									<button type="button" class="am-btn am-btn-success am-btn-block" onClick="tijiao()"><i class="am-icon-cny"></i> 立即充值</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+<button type="button" style="display: none;" id="ftp" data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0}">></button>
+<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+  <div class="am-modal-dialog">
+    <div class="am-modal-hd">支付提示
+    </div>
+    <div class="am-modal-bd">
+      支付已新窗口打开,请完成充值！!!!
+    </div>
+  </div>
+
+</div>
+		<script type="text/javascript">
+			$(function() {
+				$('#zhifu').click(function() {
+					$('#tid').val("1");
+					$('#zhifu').addClass('on');
+					$('#weixin').removeClass('on');
+				});
+				$('#weixin').click(function() {
+					$('#tid').val("2");
+					$('#weixin').addClass('on');
+					$('#zhifu').removeClass('on');
+				});
+			});
+
+		</script>
+		<include file="./tm/yi/footer.html" />

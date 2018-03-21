@@ -1,0 +1,192 @@
+@CHARSET "UTF-8";
+:root {
+	var-defaultcolor: #548762;
+}
+.content .row {
+    margin-top: 20px; 
+}
+.news-player {
+    padding-top: 15px;
+    border-top:8px solid #a12e2f;
+}
+
+.news-player img {
+    width:100%;
+}
+
+.block {
+    height: 384px;
+    border:1px solid #ccc;
+    border-top:8px solid #a12e2f;
+    padding:10px 15px 15px 15px;
+    background: #fff;
+    margin-bottom: 30px;
+  
+}
+.block .block-title {
+    height:35px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px dashed #ccc;   color: var(defaultcolor);
+}
+
+.block .block-title:first-child {
+    border-bottom: none;
+}
+
+.glyphicon:first-child {
+    float: left;
+}
+
+.first-block-title {
+    float: left;
+    width:100px;
+    text-align:center ;
+    cursor:pointer  ;
+}
+
+#dynamic {
+    border:1px #ccc solid;
+    border-bottom: none;
+}
+#elegant {
+    border-bottom: 1px #ccc solid;
+}
+#elegant:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-top: 1px solid #ccc;
+    width:30%;
+    left:252px;
+}
+
+.index_more {
+    display: block;
+    font-weight: 400;
+    float: right;
+    margin-top:1px;
+    font-size: 13px;
+    color: #fff;
+    background-color: #ffc900;
+    padding: 2px 12px 2px;
+}
+.index_more:hover {
+    color: #fff;
+}
+
+.block .block-content ul {
+    padding:0;
+    list-style: none;
+}
+.block .block-content ul li {
+	list-style-type: disc;
+	color: #4fc600;
+    height:33px;
+    line-height: 33px;
+    margin-left: 20px;
+}
+.block .block-content ul li .time {
+	color: #000;
+    float: right;
+}
+
+.four-block {
+	border-top:8px solid #a12e2f;
+    margin: 0;
+ 
+}
+.four-block a {
+    display: block;
+    margin:20px auto;
+    height: 42px;
+    line-height: 42px;
+    background: #a12e2f;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #c0c0c0;
+}
+.four-block .box-nav {
+    padding:0px 0px;
+}
+.small-block1 {
+    float: left;
+}
+.small-block2 {
+    float: right;
+}
+.small-block3 {
+    float: left;
+}
+.small-block4 {
+    float: right;
+}
+
+.four-block a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link {
+	border-top:8px solid #a12e2f;
+    padding:10px;
+    background: #fff;
+   /*  border-left:1px solid #ccc; */
+}
+
+.link-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.link .link-img img {
+	
+    width:100%;
+}
+
+.link table {
+    margin:auto;
+}
+.link .link-text ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.link .link-text td {
+    width: 100px;
+    font-size: 13px;
+    height:45px;
+    line-height: 45px;
+    text-align: center;
+}
+/* ljz */
+/*.four-block ul {*/
+	/*padding: 0;*/
+	/*margin: 0;*/
+	/*margin-left: 2px;*/
+/*}*/
+/*.four-block li {*/
+	/*list-style-type: none;*/
+	/*float: left;*/
+/*}*/
+/*.four-block li:nth-of-type(even) {*/
+
+ 	/*float: right;*/
+/*}*/
+/*.four-block li:nth-of-type(odd) {*/
+
+/*float: left; */
+	/**/
+/*}*/
+/*.clear {*/
+	/*clear:both; */
+/*}*/
+
+/**
+ * fix bootstrap
+ */  
+.navbar{
+    border:none;
+}

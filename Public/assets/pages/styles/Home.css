@@ -1,0 +1,154 @@
+a {
+    text-decoration: none;
+}
+.header{
+    margin-top:-7px;
+}
+
+.header img{
+    width:100%;
+}
+
+.nav ul {
+    list-style: none;
+    margin:0 0 20px 0;
+    padding:0;
+    font-family: arial, verdana, sans-serif;
+
+}
+
+.nav ul li {
+    display: block;
+    float: left;
+    width:76px;
+    height: 50px;
+    background-color: #c91212;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+
+}
+
+.nav ul li:hover {
+    background-color: #a81212;
+}
+.row {
+    margin-top: 20px;
+}
+.roll-player {
+    padding-top: 15px;
+    border-top:10px solid #c91212;
+}
+
+.roll-player img {
+    width:100%;
+}
+
+.block {
+    border:1px solid #ccc;
+    border-top:10px solid #c91212;
+    padding:10px 15px 15px 15px;
+}
+.block .block-title {
+    height:35px;
+    font-family: 微软雅黑;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 1px dashed #ccc;
+}
+
+.block .block-content ul {
+    padding:0;
+    list-style: none;
+}
+.block .block-content ul li {
+	list-style-type: disc;
+	color: #4fc600;
+    height:33px;
+    line-height: 33px;
+}
+.block .block-content ul li .time {
+    float: right;
+}
+
+.four-block {
+	
+    margin: 0;
+    padding-top:-10px;
+
+}
+
+
+
+.four-block a {
+    display: block;
+    width: 100px;
+    height:100px;
+    background-color: #c91212 ;
+    font-family: 微软雅黑;
+    font-size: 2.1em;
+    text-align: center;
+    line-height: 50px;
+    margin:10px 15px 25px 0;
+
+}
+
+.small-block1 {
+    float: left;
+}
+.small-block2 {
+    float: right;
+}
+.small-block3 {
+    float: left;
+}
+.small-block4 {
+    float: right;
+}
+
+.four-block a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.link {
+    padding:10px;
+    border:1px solid #ccc;
+}
+.link img {
+    width:100%;
+}
+.link .link-text ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+
+.link .link-text td {
+    width: 100px;
+    height:31px;
+    line-height: 31px;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    height:100px;
+
+}
+/* ljz */
+html,body {
+    margin: -10px;
+}
+.top-header {
+    margin-top: 0;
+    height: 35px;
+    background: white;
+    margin-bottom: 0;
+    line-height: 35px;
+    text-align: right;
+}
+.top-header a {
+    text-decoration: none;
+    color: black;
+
+}

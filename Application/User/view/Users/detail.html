@@ -1,0 +1,122 @@
+<style>
+    #detail_identification {
+        width:99%;
+        height:50%;
+    }
+    .detail_username{
+        text-align:center;
+        font-size:22px;
+        font-family: 'yahei';
+        padding:20px 0 20px 0;
+    }
+
+    .detail_alert span{
+        font-size: 1.4em;
+        text-align: center;
+        padding-left:36px;
+       
+        font-weight: bold;
+    }
+    .detail_success{
+         color: #00CC33;
+    }
+    
+    .detail_fail{
+         color: #CC0000;
+    }
+    .detail_is_identified{
+        margin: 5% 0 5% 5%;
+    }
+</style>
+
+<if condition="$data['table'] eq null">
+  <b>该用户还未上传身份证图片！</b>
+<else/>
+
+  <div class="detail_username" data-value="{$data['table']['id']}"><span>用户名：{$data['table']['username']}</span></div>
+  <img src="{$data['table']['path']}" id="detail_identification">
+
+  <div class="detail_alert">
+      <if condition="$data['table']['path'] eq null">
+          <button type="button" class="btn btn-primary" disabled="disabled">该用户还未上传身份证图片！</button>
+      <else/> 
+        <button type="button" class="btn btn-primary detail_is_identified" 
+        {$data['table']['is_disabled']?"disabled='disabled'":""}>
+          {$data['table']['confirm_info']}
+        </button>
+
+         <button type="button" class="btn btn-primary refuse_identified" {$data['table']['is_disabled']?"disabled='disabled'":""}>审核不通过</button>
+      </if>
+
+  </div>
+</if>
+<script type="text/javascript">
+
+    function printInfo(info,is_success){
+        var info = "<span class=\""+(is_success?"detail_success":"detail_fail")+"\">"+info+"</span>";
+        $('.detail_alert').append(info);
+    }
+    function checkisIdentified(){
+
+        $('.detail_is_identified').on('click',function(e){
+            var self = $(this);
+            
+            $.ajax({
+                url:$.U('ajax?q=isIdentified'),
+                data:{
+                    type:1,
+                    id:$(".detail_username").data('value')
+                },
+                async:false,
+                type:'post',
+                success:function(r){
+                    if(r.status){
+                     
+                       self.attr("disabled","disabled");
+                       $('.refuse_identified').attr("disabled","disabled");
+                       self.text('已进行实名认证');
+                    }
+
+                    printInfo(r.info,r.status);
+                },
+                error:function(r){
+                   
+                }
+            })
+      
+            
+        })
+
+
+        $('.refuse_identified').on('click',function(e){
+            var self = $(this);
+            
+            $.ajax({
+                url:$.U('ajax?q=isIdentified'),
+                data:{
+                    type:2,
+                    id:$(".detail_username").data('value')
+                },
+                async:false,
+                type:'post',
+                success:function(r){
+                    if(r.status){
+                     
+                       self.attr("disabled","disabled");
+                       $('.detail_is_identified').attr("disabled","disabled").text('实名认证不通过！');
+                    }
+
+                    printInfo(r.info,r.status);
+                },
+                error:function(r){
+                   
+                }
+            })
+      
+            
+        })
+    }
+    checkisIdentified()
+
+</script>
+

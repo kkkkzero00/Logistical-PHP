@@ -1,0 +1,202 @@
+/*中央总布局*/
+.main{
+	background-color: #f4f4f4;
+}
+.containerbox{
+	min-height:400px;
+	width: 90%;
+	margin:15px auto;
+	background-color: #f4f4f4; 
+	overflow: hidden;
+}
+.containerbox .leftbox{
+	
+	min-height: 150px;
+	
+}
+.containerbox .rightbox{
+	
+	
+	min-height: 150px;
+}
+
+
+
+
+/*左侧盒子样式*/
+.leftbox .leftboxcon{
+	width: 95%;
+	margin: 0 auto;
+	min-height: 150px;
+	background-color: #3a3a3a;
+	color: white;
+}
+.leftbox .leftboxcon .user{
+	min-height: 80px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid white;
+	margin-bottom: 15px;
+}
+.leftbox .leftboxcon .user .userimg{
+	padding-top: 15px;
+	padding-bottom: 15px;
+
+}
+.leftbox .leftboxcon .user .userimg img{
+	width: 100px;
+	height: 100px;
+	display: block;
+	border-radius: 50%;
+}
+.leftbox .leftboxcon .order{
+	min-height: 150px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid white;
+	margin-bottom: 15px;
+}
+.leftbox .leftboxcon .order .ordertitle{
+	font-size: 1.2em;
+
+}
+.leftbox .leftboxcon .order .ordertitle .ordertitle-title{
+
+}
+.leftbox .leftboxcon .order .orderlist{
+	min-height: 100px;
+	padding-top: 15px;
+}
+.leftbox .leftboxcon .order .orderlist ul{
+	margin:0;
+	padding:0;
+}
+.leftbox .leftboxcon .order .orderlist ul li{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border-left: 3px solid #8dc81e;
+	color:#8dc81e;
+	display: block;
+}
+.leftbox .leftboxcon .order .orderlist ul li a:hover{
+	background-color: #2b2a2a;
+}
+
+.leftbox .leftboxcon .order .orderlist ul li a{
+	color:white;
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	padding:5px 0;
+}
+.leftbox .leftboxcon .order .orderlist ul li a:visited{
+	color: #8dc81e;
+}
+.leftbox .leftboxcon .userinfo{
+	min-height: 150px;
+}
+.leftbox .leftboxcon .userinfo .userinfotitle{
+
+}
+.leftbox .leftboxcon .userinfo .userinfotitle .userinfotitle-title{
+	font-size: 1.2em;
+}
+.leftbox .leftboxcon .userinfo  .userinfolist{
+	min-height: 100px;
+	padding-top: 15px;
+}
+.leftbox .leftboxcon .userinfo  .userinfolist ul{
+	margin:0;
+	padding:0;
+}
+.leftbox .leftboxcon .userinfo  .userinfolist ul li{
+	margin:0;
+	padding:0;
+	list-style: none;
+	border-left: 3px solid #8dc81e;
+	color:#8dc81e;
+	display: block;
+}
+.leftbox .leftboxcon .userinfo  .userinfolist ul li a{
+	color:white;
+	text-decoration: none;
+	display: block;
+	font-size: 1.1em;
+	padding:5px 0;
+}
+.leftbox .leftboxcon .userinfo  .userinfolist ul li a:hover{
+	background-color: #2b2a2a;
+}
+.leftbox .leftboxcon .userinfo  .userinfolist ul li a:visited{
+	color: #8dc81e;
+}
+
+
+
+
+/*右侧盒子样式*/
+.rightbox .rightcontainer{
+	background-color: #ffffff;
+	padding: 0 15px;
+}
+.rightbox .rightcontainer .rightcontainer-title{
+	font-size: 1.2em;
+	padding: 15px;
+}
+.rightbox .rightcontainer .rightcontain-container{
+	padding-bottom: 30px;
+}
+.rightbox .rightcontainer .rightcontain-container table{
+	width: 90%;
+	margin: 0 auto 30px;
+
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer{
+	overflow: hidden;
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .rightimgcontainer{
+	float: right;
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .rightimgcontainer ul{
+	margin: 3px;
+	padding:15% 0;
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .rightimgcontainer ul li{
+	margin: 0;
+	padding:0;
+	list-style: none;
+	margin-bottom: 5px;
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .leftimgcontainer{
+	width: 100%;
+	height: 100%;
+	padding:5% 0;
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .leftimgcontainer img{
+	width: 73px;
+	height: 73px;
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .rightimgcontainer .rightimgcontainersp1{
+	color: #7f7d7d;
+
+}
+.rightbox .rightcontainer .rightcontain-container .imgcontainer .rightimgcontainer .rightimgcontainersp2{
+	font-weight: 800;
+	
+}
+.pagelist{
+	margin:15px 0;padding-bottom: 15px;font-size: 1.2em;
+}
+.pagelist .current{
+	display: inline-block;
+	border: 1px solid #ccc;
+	width: 25px;
+	height: 25px;
+	margin:0 3px;
+}
+.pagelist a{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #ccc;
+	margin:0 3px;
+}

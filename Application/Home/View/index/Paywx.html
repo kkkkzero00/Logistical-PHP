@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js fixed-layout">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>微信支付 - {$Think.config.title}</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+		<link rel="alternate icon" type="image/png" href="/favicon.ico">
+		<link rel="stylesheet" href="__PUBLIC__/assets/pages/styles/amazeui.min.css" />
+		<link rel="stylesheet" href="__PUBLIC__/assets/pages/styles/admin.css" />
+		
+		<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js" type="text/javascript" /></script>
+		<script src="__PUBLIC__/assets/pages/scripts/layer/layer.js" type="text/javascript" /></script>
+		<script src="__PUBLIC__/assets/global/scripts/qrcode.js" type="text/javascript" /></script>
+		<script src="__PUBLIC__/assets/global/scripts/Base.js" type="text/javascript" /></script>
+		<script src="__PUBLIC__/assets/global/scripts/mootools.js" type="text/javascript" /></script>
+		<script src="__PUBLIC__/assets/global/scripts/prototype.js" type="text/javascript" /></script>
+		<script src="__PUBLIC__/assets/pages/Ajax/ThinkAjax.js" type="text/javascript" /></script>
+		<script language="JavaScript">
+	    function Check()
+	    {
+	    	var out_trade_no = "<?php echo $out_trade_no; ?>"; 
+	    	console.log(out_trade_no);
+	    	ThinkAjax.send('__URL__/wxcx','ajax=1&out_trade_no='+out_trade_no,goto);
+	    	console.log('__URL__/wxcx');
+	    }
+	    function goto(data,status){
+	    	console.log("1111");
+	    	if (status==1)
+	    	{
+	    		layer.alert("支付成功", {icon: 6});
+                    setTimeout(function(){
+                        window.location.href="{:U('Index/userinfo')}";
+                    },2000)
+	    	}
+	    	}
+	    window.setInterval("Check()",3000); 
+	</script>
+	<style type="text/css">
+		#qrcode img{width: 150px; height: 150px; }
+		.ThinkAjax{display: none;}
+		#ThinkAjaxResult{display: none;}
+	</style>
+	</head>
+
+	<body>
+<div class="admin-content">
+    <div class="admin-content-body">
+      <hr>
+<div class="am-g am-g-fixed doc-am-g">
+  <div class="am-u-lg-8 am-u-lg-offset-2">
+        	<div class="am-panel am-panel-primary"><div class="am-panel-hd">
+  		<h3 class="am-panel-title"><i class="am-icon-yen"></i> 微信扫码支付</h3>
+  	</div>
+  	<div class="am-panel-bd">
+          <h3 class="am-text-ss  am-margin-top-lg">支付金额：<font color="#E61C42" size="5">{$wxje}元</font></h3>
+          	<h2 class="am-text-ss  am-margin-top-lg"><?php echo($error); ?></h2>
+          <p class="am-text-ss">
+          	<div align="center" id="qrcode">
+          	</div>
+          </p>
+          <div style="width:100%">
+	<div style="margin-top:10px;text-align: center;">手机请长按二维码，保存图片然后用微信扫描相册图片支付。</div>
+	</div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+    <script>
+        if(<?php echo $unifiedOrderResult["code_url"] != NULL; ?>)
+        {
+            var url = "<?php echo $code_url;?>";
+            //参数1表示图像大小，取值范围1-10；参数2表示质量，取值范围'L','M','Q','H'
+            var qr = qrcode(10, 'H');
+            qr.addData(url);
+            qr.make();
+            var wording=document.createElement('p');
+            wording.innerHTML = "使用微信扫码支付";
+            var code=document.createElement('DIV');
+            code.innerHTML = qr.createImgTag();
+            var element=document.getElementById("qrcode");
+            element.appendChild(wording);
+            element.appendChild(code);
+        }
+    </script>

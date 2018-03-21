@@ -1,0 +1,53 @@
+<extend name="public:frameset1"/>
+<block name="style">
+    <link href="__PUBLIC__/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/assets/global/styles/login/login.css" rel="stylesheet" type="text/css">
+   
+</block>
+
+<block name="main">
+<div class="container">
+	<div class="row">
+			<div class="centerimg">
+				<img src="__PUBLIC__/assets/global/img/bg/loginbg.jpg" alt="" id="centerimg-img" style="">
+			</div>
+			<div class="loginbox">
+				<div class="boxcontainer">
+				
+					<div class="containertitle">账号登录</div>
+					<center>
+					<div class="formglup">
+						<form action="{:U('index/logins')}" method="post" class="form">
+							<ul>
+								<li><span class="formglup-title">账号：</span><input type="text" name="username" id="" placeholder="手机号" style="font-size: 14px;color: #555;"> </li>
+								<li><span class="formglup-title">密码：</span><input type="password" name="password" id=""></li>
+								<li><span class="formglup-title">验证码：</span><input type="text" style="width: 28%;" name="verify"><img onclick="this.src='__CONTROLLER__/verify/'+Math.random();" src="__CONTROLLER__/verify" ></li>
+								<li><input type="submit" value="登录" class="btn btn-primary"></li>
+							</ul>
+
+						</form>
+					</div>
+					<div class="register">
+						<a href="{:U('index/resetpass')}">忘记密码</a>
+						<a href="{:U('index/register')}">注册</a>
+					</div>
+				</center>	
+				</div>
+
+			</div>
+
+	</div>
+</div>
+	
+	
+
+
+
+
+</block>
+<block name="script">
+	<script type="text/javascript">
+		document.getElementById("centerimg-img").style.height= window.innerHeight+"px";
+		
+	</script>
+</block>

@@ -1,0 +1,318 @@
+<extend name="public:frameset1"/>
+<block name="style">
+    <link href="__PUBLIC__/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/assets/global/styles/userinfo/userinfo.css" rel="stylesheet" type="text/css">
+   
+   
+</block>
+
+<block name="main">
+    <div class="containers" style="margin: 0;padding: 0">
+		<div class="row" style="margin: 0;padding: 0">
+			<div class="col-md-12" style="margin: 0;padding: 0">
+				<div  class="index-center">
+					<div class="index-center-img">
+					<img src="__PUBLIC__/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>		
+	
+	<div class="container">
+		<div class="row">
+			<div class="containerbox">
+				<div class="leftbox col-md-3 col-sm-12">
+					<center>
+						<div class="leftboxcon">
+							<div class="user">
+								<div class="userimg">
+									<img src="__PUBLIC__/UploadFile{$user['savepath']}"  alt="">
+								</div>
+								<div class="username">
+									{$user['username']}
+								</div>
+							</div>
+							<div class="order">
+								<div class="ordertitle">
+									<span class="iconfont" style="font-size: 30px;">&#xe735;</span>
+									<span class="ordertitle-title">订单中心</span>
+								</div>
+								<div class="orderlist">
+									<ul>
+										<li><a href="{:U('index/thinginfo',array('p'=>1))}">普通订单</a></li>
+										<li><a href="{:U('index/citysendorder',array('p'=>1))}">同城速运订单</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="userinfo">
+								<div class="userinfotitle">
+									<span class="iconfont" style="font-size: 30px;">&#xe601;</span><span class="userinfotitle-title">个人中心</span>
+								</div>
+								<div class="userinfolist">
+									<ul>
+										<li><a href="{:U('index/userinfo',array('id'=>$user['id']))}">我的个人中心</a></li>
+										<li><a href="{:U('index/manageaddr')}">管理默认收货地址</a></li>
+										<li><a href="{:U('index/managecitysendaddr')}">管理同城速运默认收货地址</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</center>
+				</div>
+
+				<div class="rightbox col-sm-12 col-md-9">
+					<div class="rightcontainer">
+						<div class="rightcontainer-title">
+							<span class="iconfont" style="font-size: 30px;">&#xe601;</span><span>个人中心</span>
+						</div>
+						<div class="rightcontain-container">
+							<div class="rightcobox">
+								<div class="usersinfo">
+									<table class="table">
+										<tr>
+											<td>用户名：</td>
+											<td>{$user['username']}</td>
+										</tr>
+										<tr>
+											<td>手机号：</td>
+											<td class="phone">{$user['phone']}</td>
+										</tr>
+										<tr>
+											<td>实名认证状态：</td>
+											<td><if condition="($user['is_identification'] eq 0) "> 
+											<span style="color: red">未上传身份证</span>
+											<elseif condition="($user['is_identification'] eq 9)"/>
+											<span style="color: red">暂未审核</span>
+											<elseif condition="($user['is_identification'] eq 3)"/>
+												<span style="color: red">审核不通过，请重新上传身份证</span>
+											<else />
+											<span style="color: green">认证成功</span>
+											</if></td>
+										</tr>
+										<tr>
+											<td>性别：</td>
+											<td><if condition="($user['sex'] eq 1) "> 男<else />女</if></td>
+										</tr>
+										<tr>
+											<td>姓名：</td>
+											<td>{$user['truename']}</td>
+										</tr>
+										<tr>
+											<td>地址：</td>
+											<td>{$addr['addr']}</td>
+										</tr>
+										
+									</table>
+							<div class="userbutton">
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">修改个人信息</button>
+
+<!-- Modal -->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">修改个人信息</h4>
+								      </div>
+								      <div class="modal-body">
+
+								      	<form class="form-horizontal" action="{:U('index/edit_users')}" method="post">
+								        <div class="form-group">
+								    <label for="username1" class="col-sm-2 control-label">用户名</label>
+								    <div class="col-sm-10">
+								      <input type="text" class="form-control" id="username1" placeholder="昵称" name="username">
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <label for="username2" class="col-sm-2 control-label">姓名</label>
+								    <div class="col-sm-10">
+								      <input type="text" name="truename" class="form-control" id="username2" placeholder="姓名">
+								    </div>
+								  </div>
+								
+								 <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        <button type="submit" class="btn btn-primary" name="submit">保存更改</button>
+								      </div>
+								</form>
+								      </div>
+								    </div>
+								  </div>
+								</div>
+								<!-- Button trigger modal -->
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal2">修改密码</button>
+
+<!-- Modal -->
+								<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">修改密码</h4>
+								      </div>
+								      <div class="modal-body">
+								       
+									<form class="form-horizontal" method="post" action="{:U('Index/edit_password')}">
+								<div class="form-group">
+								    <label for="yanzhengma" class="col-sm-2 control-label">验证码</label>
+								    <div class="col-sm-10">
+								      <input type="text" class="form-control" id="yangzhengma" placeholder="验证码" style="display: inline-block;width: 78%" name="yanzheng" required="required">
+								      <button class="btn btn-primary" type="button" id="yanzheng" name="{:U('Index/registers')}">发送验证码</button>
+								    </div>
+								  </div>
+								  <div class="form-group">
+								    <label for="password1" class="col-sm-2 control-label">当前密码</label>
+								    <div class="col-sm-10">
+								      <input type="password" class="form-control" id="password1" placeholder="当前密码" name="passwords">
+								    </div>
+								  </div>
+								<div class="form-group">
+								    <label for="password2" class="col-sm-2 control-label">新密码</label>
+								    <div class="col-sm-10">
+								      <input type="password" class="form-control" id="password2" placeholder="新密码" name="password">
+								    </div>
+								  </div>
+								  <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        <button type="submit" class="btn btn-primary">保存更改</button>
+								      </div>
+								</form>
+								      </div>
+								      
+								    </div>
+								  </div>
+								</div>
+
+<if condition="($user['is_identification'] eq 0) "> 
+											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">实名认证</button>
+											<elseif condition="($user['is_identification'] eq 3)"/>
+											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4">实名认证</button>
+											<else />
+											<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal4" disabled="disabled">实名认证</button>
+											</if>
+
+
+<!-- Modal -->
+								<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">实名认证</h4>
+								        <span style="font-size: 0.5em;color: gray;">注意上传的身份证需是正面的</span>
+								      </div>
+								      <div class="modal-body">
+								       
+									<form class="form-horizontal"  enctype="multipart/form-data" method="post" action="{:U('index/name_certification')}">
+								<div class="form-group">
+								    <label for="yanzhengma" class="col-sm-2 control-label">选择文件</label>
+								    <div class="col-sm-10">
+								      <input type="file" class="file_input" name="userimg">
+								     
+								    </div>
+								  </div>
+								  
+								  <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        <button type="submit" class="btn btn-primary" name="submit">上传</button>
+								      </div>
+								</form>
+								      </div>
+								      
+								    </div>
+								  </div>
+								</div>
+
+								<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal3">修改头像</button>
+
+<!-- Modal -->
+								<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								  <div class="modal-dialog" role="document">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								        <h4 class="modal-title" id="myModalLabel">修改头像</h4>
+								      </div>
+								      <div class="modal-body">
+								       
+									<form class="form-horizontal"  enctype="multipart/form-data" method="post" action="{:U('index/userimgupload')}">
+								<div class="form-group">
+								    <label for="yanzhengma" class="col-sm-2 control-label">选择文件</label>
+								    <div class="col-sm-10">
+								      <input type="file" class="file_input" name="userimg">
+								     
+								    </div>
+								  </div>
+								  
+								  <div class="modal-footer">
+								        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								        <button type="submit" class="btn btn-primary" name="submit">上传</button>
+								      </div>
+								</form>
+								      </div>
+								      
+								    </div>
+								  </div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				<div class="leftcobox">
+					<div class="leftcoboxco">
+						<div class="leftcoboxboimg">
+							<img src="__PUBLIC__/UploadFile{$user['savepath']}"  alt="">
+						</div>
+						
+    
+</div></center></form></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>	
+</div>
+	
+</block>
+<block name="script">
+	<script type="text/javascript">
+	  $(document).ready(function(){
+	    var timeagain = 60;   //设置再次发送验证码的时间
+	    var times = timeagain;    
+	    var btn = $("#yanzheng");
+	    var reg = /^1[0-9]{10}$/;
+
+	    function timeCount(){	        
+	        if (times >= 0) {
+	            btn.text(times+"秒后重发");
+	            setTimeout(timeCount,1000);
+	            times -= 1;
+	        }else{
+	            btn.text("重新发送");
+	            times = timeagain;
+	            btn.removeAttr("disabled");
+	        }
+	    }
+
+	    btn.on("click",function(){
+	        $(this).attr("disabled",true);
+	        var calls=$(".phone").text();
+	        var urls=$(this).attr('name');
+	        var data={'call':calls};
+	        $.ajax({
+	           type:"post",
+	           url:urls,
+	           data:data,
+	           success:function(datas){
+	                
+	            }
+	        });
+	        timeCount(this);
+	    });
+	  });
+	</script>
+</block>

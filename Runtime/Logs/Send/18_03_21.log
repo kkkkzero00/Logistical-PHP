@@ -1,0 +1,157 @@
+[ 2018-03-21T22:57:06+08:00 ] ::1 /framework/gitTest/haoxun/index.php/Send/SendOrder/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001519s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001717s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+SQL: SELECT `area_id` FROM `haoxun_user` WHERE `status` = 1 AND `id` = 37 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0013s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000353s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000532s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000169s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000170s ]
+NOTIC: [8] Undefined index: all G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 1040 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE ( `id` <= 35 OR `id` = 212 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0011s ]
+SQL: SELECT `id`,`name` FROM `haoxun_express_name` WHERE `id` < 35  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`name` FROM `haoxun_express_name` WHERE `id` < 35  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: list G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 433 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.006790s ]
+INFO: [ before_view ] --END-- [ RunTime:0.006959s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000448s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000648s ]
+NOTIC: [8] Undefined index: GLOBAL G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 37 行.
+NOTIC: [8] Undefined index: PLUGINS G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 38 行.
+NOTIC: [8] Undefined variable: _middle G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 199 行.
+NOTIC: [8] Undefined variable: _bottom G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 218 行.
+NOTIC: [8] Undefined variable: _script G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 277 行.
+NOTIC: [8] Undefined index: PLUGINS G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 279 行.
+NOTIC: [8] Undefined index: GLOBAL G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 285 行.
+NOTIC: [8] Undefined variable: hyMenu G:\PHP\wamp64\www\framework\gitTest\haoxun\Runtime\Cache\Send\9c07dc003a2105c82c74ba68c02f614c.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051381s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2018-03-21T22:57:06+08:00 ] ::1 /framework/gitTest/haoxun/index.php/Send/SendOrder/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001838s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002031s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0010s ]
+SQL: SELECT `area_id` FROM `haoxun_user` WHERE `status` = 1 AND `id` = 37 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0012s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000144s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000302s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000264s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000207s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `haoxun_send_order` WHERE `status` <> 0  [ RunTime:0.0005s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000234s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.003244s ]
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: info G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAllModel.class.php 第 471 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000047s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.004955s ]
+

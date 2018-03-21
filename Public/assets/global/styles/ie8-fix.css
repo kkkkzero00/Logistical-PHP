@@ -1,0 +1,29 @@
+@charset "UTF-8";
+.navbar-default {
+    background-color: #75C6EE;
+
+}
+.dropdown-menu {
+    background-color: #A6D0EF;
+}
+.box-left ul .tags {
+    background-color: #46BDF6;
+}
+.box-nav li a {
+    background-color: #64BDEA;
+}
+.box-nav2 li a {
+    background-color: #64BDEA;
+}
+.box{
+    background-color: #eee;
+    height: 240px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    color: #FAFAFC;
+    background-color: #0e92e5;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #FAFAFC;
+    background-color: #0e92e5;
+}

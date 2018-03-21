@@ -1,0 +1,86 @@
+<extend name="public:frameset1"/>
+<block name="style">
+    <link href="__PUBLIC__/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+   <style>
+   	.information table td a{
+   		margin-right: 10px;
+   	}
+   </style>
+   
+</block>
+
+<block name="main">
+    <div class="containers" style="margin: 0;padding: 0">
+	<div class="row" style="margin: 0;padding: 0">
+		<div class="col-md-12" style="margin: 0;padding: 0">
+			<div  class="index-center">
+				<div class="index-center-img"><img src="__PUBLIC__/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+
+</div>		
+	
+	<div class="container">
+		<div class="row" style="width: 80%;margin: 0 auto;">
+			<div class="col-md-12">
+
+				<div class="container-botton">
+
+<div class="container-totton-con" style="min-height: 400px;">
+
+			<div class="bottontitle"><span class="bottontitle-span1">管理上门寄件地址</span><a href="{:U('index/addaddr',array('flag'=>0))}" style="margin-left: 20px;"><button type="button" class="btn btn-info"">新增地址</button></a></div>
+			
+  
+  		<div class="information" style="text-align: center;margin-top: 15px;">
+			<table class="table table-striped table-bordered" style="width: 80%;margin:0 auto;text-align: center;">
+				<tr>
+					<td>序号</td>
+					<td>地址</td>
+					<td>是否为默认地址</td>
+					<td>操作</td>
+					
+				</tr>
+				<volist name="addr" id="add">
+				<tr>
+					<td>{$add['id']}</td>
+					<td>{$add['addr']}</td>
+					<td><php>if($add['sign']==1){echo "是";}else{echo "否";}</php></td>
+					<td style="text-align: left;"><a href="{:U('index/setaddr',array('id'=>$add['id'],'flag'=>0))}" ">设为默认地址</a><a href="{:U('index/changeaddr',array('id'=>$add['id'],'flag'=>0))}">编辑</a><if condition="($add['sign'] eq 0)"> <a href="{:U('index/deleteaddr',array('id'=>$add['id'],'flag'=>0))}">删除</a> </if></td>
+					
+				</tr>
+				</volist>
+			</table>
+	<!-- <span>订单号：{$info['order_status']}</span> -->
+
+
+		</div>
+
+	
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+		</div>
+	</div>
+	
+	
+
+
+
+
+</block>
+<block name="script">
+	
+</block>

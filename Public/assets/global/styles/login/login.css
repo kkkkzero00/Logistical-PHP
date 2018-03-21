@@ -1,0 +1,74 @@
+
+.container .row .centerimg img{
+	width: 100%;
+	height: 100%;
+}
+.loginbox{
+	position: absolute;
+	right: 5%;
+	top:15%;
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 386px;
+	height: 480px;
+}
+.loginbox .boxcontainer{
+	width: 80%;
+	margin: 0 auto;
+}
+@media screen and (max-width:766px){ 
+	.loginbox{
+		width: 343px;
+		height: 380px;
+	}
+	.loginbox .boxcontainer{
+		width: 90%;
+	}
+}
+
+.loginbox .boxcontainer .containertitle{
+	text-align: left;
+	font-weight: 900;
+	font-size: 1.6em;
+	color: #666666;
+	margin-top: 40px;
+}
+.loginbox .boxcontainer .formglup{
+
+}
+.loginbox .boxcontainer .formglup ul{
+	margin: 0;
+	padding: 0;
+}
+.loginbox .boxcontainer .formglup ul li{
+	margin: 15px 0;
+	padding: 0;
+	list-style: none;
+	height: 51px;
+	line-height: 50px;
+	font-size: 1.2em;
+	border: 1px solid #e6e6e6;
+	background-color: #ffffff;
+}
+.loginbox .boxcontainer .formglup ul li:last-child{
+	background-color: transparent;
+	border: 0;
+
+}
+.loginbox .boxcontainer .formglup ul li:last-child input{
+	width: 100%;
+	height: 100%;
+	font-size: 1.2em;
+}
+.loginbox .boxcontainer ul li .formglup-title{
+	text-align: right;
+	display: inline-block;
+	width: 25%;
+	border-right: 1px solid #e6e6e6;
+	color: #aaaaaa;
+}
+.loginbox .boxcontainer ul li input{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 75%;
+}

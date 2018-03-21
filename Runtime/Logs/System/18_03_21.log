@@ -1,0 +1,515 @@
+[ 2018-03-21T22:56:48+08:00 ] ::1 /framework/gitTest/haoxun/index.php/system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001100s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001451s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001665s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+
+[ 2018-03-21T22:56:49+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001282s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001496s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_setting` [ RunTime:0.0010s ]
+SQL: SELECT `key`,`value` FROM `haoxun_frame_setting` WHERE `status` < 9  [ RunTime:0.0003s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.022704s ]
+INFO: [ before_view ] --END-- [ RunTime:0.022945s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000223s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000444s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001069s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001330s ]
+
+[ 2018-03-21T22:56:49+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2018-03-21T22:56:58+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/ajax?q=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001244s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001412s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: logStep G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\System\Controller\HyStartController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0027s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAccountModel.class.php on line 25 and defined G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+SQL: SELECT `id`,`name`,`roles`,`user_no`,`password`,`sex`,`birth`,`phone`,`qq`,`email`,`country`,`session_id`,`login_last_time`,`login_times`,`status`,`admission_time`,`area_id`,`avatar_file`,`create_time`,`update_time` FROM `haoxun_user` WHERE `user_no` = '123' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `haoxun_user` SET `login_last_time`='1521644218',`login_times`='399',`session_id`='7bnjpmhniiansetvgpvu3ndd41' WHERE `id` = 37 [ RunTime:0.0666s ]
+NOTIC: [8] Undefined index: college_id G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAccountModel.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0008s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0011s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0010s ]
+SQL: INSERT INTO `haoxun_frame_log` (`user_id`,`controller`,`action`,`post`,`description`,`ip`,`create_time`) VALUES ('37','HyStart','ajax','{\"u\":\"pd1MAUrZY0oksV7qmhJ+yA==5466172\",\"p\":\"LgKZFkHcMsKY4eWZEvHGlX3LelpUpk8iUzMZOFKPZ0Kuso7kkatoV9kkuGp4UQrk5907092\"}',' >> 登录验证 >> <span class=\'text-success\'>成功</span>','0.0.0.0','1521644218') [ RunTime:0.0004s ]
+
+[ 2018-03-21T22:56:58+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000596s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001418s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001634s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0010s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0171s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0028s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.022225s ]
+INFO: [ before_view ] --END-- [ RunTime:0.022396s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000502s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000795s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067570s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067791s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001113s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000963s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001360s ]
+
+[ 2018-03-21T22:56:59+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003190s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003676s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-21T22:57:02+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/switchs/role/encrypt_act-iCakpySZ5Tq1m6JT7Dxf_A_qX492QsGwHQSUXGVSA-sld4PkJzb3sIeKHcy3gOaFivLkjnq2erRa2ILBBciWMQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001452s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0008s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=32 AND `status`=1 )  [ RunTime:0.0009s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=32 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+
+[ 2018-03-21T22:57:02+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001477s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001667s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0011s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0027s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.007438s ]
+INFO: [ before_view ] --END-- [ RunTime:0.007613s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000543s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036537s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036734s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000795s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000081s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2018-03-21T22:57:03+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002851s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003171s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-21T22:57:14+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/switchs/role/encrypt_act-R1Ri45YwNkZq85y3Y0JuzHXEPWOV6jeciKEv8-gg8M5LkJgNn6EJSjPSmYQlivfMN18uX1OsHBy_z8uZhb47zA.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001419s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001622s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0006s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0009s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0009s ]
+
+[ 2018-03-21T22:57:14+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001398s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001588s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0008s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.005074s ]
+INFO: [ before_view ] --END-- [ RunTime:0.005243s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036751s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000939s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2018-03-21T22:57:15+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000971s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001229s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002245s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002540s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-21T22:57:16+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001435s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001640s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0008s ]
+SQL: UPDATE `haoxun_user` SET `session_id`='' WHERE `id` = 37 [ RunTime:0.1247s ]
+
+[ 2018-03-21T22:57:16+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001338s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001508s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001706s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_setting` [ RunTime:0.0009s ]
+SQL: SELECT `key`,`value` FROM `haoxun_frame_setting` WHERE `status` < 9  [ RunTime:0.0003s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.001760s ]
+INFO: [ before_view ] --END-- [ RunTime:0.002125s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000356s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000690s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019810s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000091s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001321s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001561s ]
+
+[ 2018-03-21T22:57:18+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/ajax?q=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000959s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001549s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: logStep G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\System\Controller\HyStartController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.2945s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAccountModel.class.php on line 25 and defined G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+SQL: SELECT `id`,`name`,`roles`,`user_no`,`password`,`sex`,`birth`,`phone`,`qq`,`email`,`country`,`session_id`,`login_last_time`,`login_times`,`status`,`admission_time`,`area_id`,`avatar_file`,`create_time`,`update_time` FROM `haoxun_user` WHERE `user_no` = '123' AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: UPDATE `haoxun_user` SET `login_last_time`='1521644238',`login_times`='400',`session_id`='7bnjpmhniiansetvgpvu3ndd41' WHERE `id` = 37 [ RunTime:0.0458s ]
+NOTIC: [8] Undefined index: college_id G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyAccountModel.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0010s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0011s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0014s ]
+SQL: INSERT INTO `haoxun_frame_log` (`user_id`,`controller`,`action`,`post`,`description`,`ip`,`create_time`) VALUES ('37','HyStart','ajax','{\"u\":\"JmZ\\/\\/x6Th32ypNUVZm\\/p3Q==3533296\",\"p\":\"63qZ7WBJK\\/11p7VEbJWTR8NIQpuBFR5qnzesK6XbnEOdo3EHKl2OzOqv8f\\/RgdH57113810\"}',' >> 登录验证 >> <span class=\'text-success\'>成功</span>','0.0.0.0','1521644238') [ RunTime:0.0005s ]
+
+[ 2018-03-21T22:57:19+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001447s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001657s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0008s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0003s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.004848s ]
+INFO: [ before_view ] --END-- [ RunTime:0.005016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000494s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040542s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000808s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000081s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001174s ]
+
+[ 2018-03-21T22:57:19+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000093s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001433s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001565s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001738s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-21T22:57:27+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001337s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001520s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001728s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0009s ]
+SQL: UPDATE `haoxun_user` SET `session_id`='' WHERE `id` = 37 [ RunTime:0.0767s ]
+
+[ 2018-03-21T22:57:27+08:00 ] ::1 /framework/gitTest/haoxun/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\haoxun\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001471s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001676s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\haoxun\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_setting` [ RunTime:0.0009s ]
+SQL: SELECT `key`,`value` FROM `haoxun_frame_setting` WHERE `status` < 9  [ RunTime:0.0003s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.001154s ]
+INFO: [ before_view ] --END-- [ RunTime:0.001370s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000390s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017226s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017414s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000080s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001315s ]
+

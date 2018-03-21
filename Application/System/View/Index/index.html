@@ -1,0 +1,55 @@
+<extend name="Common@HyFrame:frameset" />
+<block name="title">昊迅快递管理系统&nbsp;<small>简洁、流畅、安全、自适应移动设备</small></block>
+<block name="breadcrumb">
+<ul class="page-breadcrumb">
+	<li><i class="fa fa-home"></i> <a href="__ROOT__">首页</a> <i class="fa fa-angle-right"></i></li>
+    <li><a href="javascript:;">欢迎中心</a></li>
+</ul>
+</block>
+<block name="toolbar"></block>
+<block name="main">
+    <div class="row">
+        <div class="col-md-12 col-sm-6">
+            <div class="portlet light ">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="icon-bar-chart font-green-sharp"></i> <span  class="caption-subject font-green-sharp bold">欢迎中心</span>
+                    </div>
+                    <div class="tools">
+                        <a href="javascript:;" class="collapse" data-original-title="" title="收缩/展开">
+                        </a>
+                    </div>
+                </div>
+                <div class="portlet-body">
+                    <p class="pull-left time-now"></p>
+                    <div class="pull-right hidden-480">
+                        <iframe name="weather_inc" src="http://tianqi.xixik.com/cframe/10" width="300" height="25" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" ></iframe>
+                    </div>
+                    <div class="clearfix"></div>
+                    <br>
+                    <p>上次登录时间：{$lastLogin}<i class="pull-right"></i></p>
+                    <br>
+                    <p>您当前有<a href="{:U('HyAlert/all')}"> {:count($hyAlerts)} 条新的提醒</a> ， <a href="{:U('Inbox/all')}">0 封未读邮件</a>，请注意查收！</p>
+                    <br>
+                    <p>当前默认角色：{$role}</p>
+                    <notempty name="roles">
+                        <p> 我可以切换的角色有：<b>
+                            <volist name="roles" id="v">
+                                <eq name="v" value="$role"><else />&nbsp;{$v}&nbsp;</eq>
+                            </volist></b>
+                            。请单击右上角头像，切换其他角色。
+                        </p>
+                    </notempty>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+</block>
+<block name="bottom">
+    <script>
+        $(document).ready(function(){
+            Index.init();
+        });
+    </script>
+</block>

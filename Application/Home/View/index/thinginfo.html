@@ -1,0 +1,144 @@
+<extend name="public:frameset1"/>
+<block name="style">
+    <link href="__PUBLIC__/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+    <link href="__PUBLIC__/assets/global/styles/thinginfo/thinginfo.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    	.payattention{
+    		color: red;
+    	}
+    </style>
+   <script type="text/javascript" src="__PUBLIC__/assets/global/plugins/jquery.min.js"></script>
+</block>
+
+<block name="main">
+    <div class="containers" style="margin: 0;padding: 0">
+	<div class="row" style="margin: 0;padding: 0">
+		<div class="col-md-12" style="margin: 0;padding: 0">
+			<div  class="index-center">
+				<div class="index-center-img"><img src="__PUBLIC__/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
+				
+			</div>
+		</div>
+	</div>
+</div>		
+	
+<div class="container">
+	<div class="row">
+		<div class="containerbox">
+			<div class="leftbox col-md-3 col-sm-12">
+			<center>
+			<div class="leftboxcon">
+					<div class="user">
+				<div class="userimg"><img src="__PUBLIC__/UploadFile{$user}"  alt=""></div>
+				<div class="username">{$_SESSION['name']}</div>
+			</div>
+			<div class="order">
+				<div class="ordertitle"><span class="iconfont" style="font-size: 30px;">&#xe735;</span><span class="ordertitle-title">订单中心</span></div>
+				<div class="orderlist">
+					<ul>
+						<li><a href="{:U('index/thinginfo',array('id'=>$_SESSION['id'],'p'=>1))}">普通订单</a></li>
+						<li><a href="{:U('index/citysendorder',array('id'=>$_SESSION['id'],'p'=>1))}">同城速运订单</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="userinfo">
+				<div class="userinfotitle"><span class="iconfont" style="font-size: 30px;">&#xe601;</span><span class="userinfotitle-title">个人中心</span></div>
+				<div class="userinfolist">
+					<ul>
+						<li><a href="{:U('index/userinfo',array('id'=>$_SESSION['id']))}">我的个人中心</a></li>
+            <li><a href="{:U('index/manageaddr')}">管理默认收货地址</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</center>
+		</div>
+
+
+	<div class="rightbox col-md-9 col-sm-12">
+			<div class="rightcontainer">
+				<div class="rightcontainer-title" >
+				<span class="iconfont" style="font-size: 30px;">&#xe649;</span><span>我的订单</span>
+				</div>
+				<div class="rightcontain-container">
+				<volist name="thinginfo" id="thing">
+					<table class="table-bordered table" style="table-layout: fixed;">
+						
+						<tr>
+							<td colspan="4" style="padding:10px 0;"><span style="padding-left: 15px;color: #7f7d7d;">订单号：</span><span style="font-weight: 800">{$thing['courier_number']}</span><span style="padding-left: 60px;color: #7f7d7d">下单时间：</span><span style="font-weight: 800">{$thing['create_time']|date='Y-m-d H:i:s',###}</span></td>
+						</tr>
+						<tr style="text-align: center;">
+							<td>快递公司</td>
+							<td>订单状态</td>
+							<td>支付金额</td>
+							<td>操作</td>
+						</tr>
+						<tr>
+							<td>
+							<div class="express" style="margin: 5px auto;text-align: center;">
+							<!-- 	<img src="__PUBLIC__/assets/global/img/course/shunfen.jpg" alt=""> -->
+								<div class="rightimgcontainersp1" style="margin-top: 5px;">{$thing['name']}</div>
+							</div>
+								
+
+								
+							</td>
+							<td style="font-weight: 800;font-size: 1.1em;color: red;text-align: center;">{$thing['order_status']}
+              </td>
+							<td style="text-align: center;font-weight: 800;color: red;">
+							 <if condition="empty($thing['need_payment']) ">等待计算<else />{$thing['need_payment']}</if>
+               </td>
+							<td style="text-align: center;"><!-- //1未称重2未付款3未付款(现金支付)4未打印5未发货6已发货 -->
+                <if condition="($thing['order_status'] eq '未付款')"> 
+                  <a href="{:U('index/orderdetail',array('id'=>$thing['id'],'flag'=>0))}" target="_blank">查看订单</a>
+                  <a href="{:U('index/manageorder',array('id'=>$thing['id']))}">修改订单</a>
+                  <br>
+                  <!-- <a href="{:U('index/selectpaymethod',array('id'=>$thing['id'],'flag'=>1))}">立即付款</a> -->
+                   <a class="payNow" id="payNow" href="javaScript:;">立即支付</a>
+                <else /> 
+                <a href="{:U('index/orderdetail',array('id'=>$thing['id'],'flag'=>0))}" target="_blank">查看订单</a>
+                <a href="{:U('index/manageorder',array('id'=>$thing['id']))}">修改订单</a>
+
+                </if>
+							</td>
+						</tr>
+					</table>
+
+					</volist>
+
+				</div>
+				<div class="pagelist" style=""><center>{$page}</center></div>
+
+			</div>
+
+
+		</div>
+
+
+
+
+		
+	
+</div>	</div>
+</div>
+	
+	
+
+
+
+
+</block>
+<block name="script">
+	<script type="text/javascript" src="__PUBLIC__/assets/global/scripts/order.js"></script>
+	<script type="text/javascript">
+		var payNow = document.getElementById('payNow');
+		var payclose = document.getElementById('payClose');
+		//console.log(container);
+		payNow.onclick = function(){
+			document.getElementById('payImg').style.display='block';
+		}
+		payClose.onclick = function(){
+			document.getElementById('payImg').style.display='none';
+		}
+	</script>
+</block>

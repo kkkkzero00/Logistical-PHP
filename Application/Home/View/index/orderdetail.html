@@ -1,0 +1,158 @@
+<extend name="public:frameset1"/>
+<block name="style">
+    <link href="__PUBLIC__/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+   <style>
+   	.information table td a{
+   		margin-right: 10px;
+   	}
+   	td:first-child{
+   		text-align: center;
+   		font-size: 1.1em;
+   	}
+   </style>
+   
+</block>
+
+<block name="main">
+    <div class="containers" style="margin: 0;padding: 0">
+	<div class="row" style="margin: 0;padding: 0">
+		<div class="col-md-12" style="margin: 0;padding: 0">
+			<div  class="index-center">
+				<div class="index-center-img"><img src="__PUBLIC__/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
+				
+			</div>
+		</div>
+	</div>
+	
+	
+
+</div>		
+	
+	<div class="container">
+		<div class="row" style="width: 80%;margin: 0 auto;">
+			<div class="col-md-12">
+
+				<div class="container-botton">
+
+<div class="container-totton-con" style="min-height: 400px;">
+
+			<div class="bottontitle"><span class="bottontitle-span1">详细订单信息</span></div>
+			
+  
+  		<div class="information" style="margin-top: 15px;">
+			
+	<table class="table table-hover" style="table-layout:fixed;width: 85%; margin:0 auto;">
+		<tr>
+			<td colspan="2" style="text-align: center;font-size: 1.2em;font-weight: 600">寄件人信息</td>
+		</tr>
+		<tr>
+			<td>寄件人姓名：</td>
+			<td>{$info['sender']}</td>
+		</tr>
+		<tr>
+			<td>寄件人手机号：</td>
+			<td>{$info['sender_phone']}</td>
+		</tr>
+		<notempty name="$info['sender_company']">
+		<tr>
+			<td>寄件单位：</td>
+			<td>{$info['sender_company']}</td>
+		</tr>
+		</notempty>
+		
+		<tr>
+			<td>取件方式备注：</td>
+			<td>{$info['fetchgoods_remarks']}</td>
+		</tr>
+		<notempty name="$info['area_name']">
+		<tr>
+			<td>网点：</td>
+			<td>{$info['area_name']}</td>
+		</tr>
+		</notempty>
+		
+		<tr>
+			<td>寄件地址：</td>
+			<td>{$info['sender_address']}</td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>	
+		<tr>
+			<td colspan="2" style="text-align: center;font-size: 1.2em;font-weight: 600">收件人信息</td>
+		</tr>
+		<tr>
+			<td>收件人姓名：</td>
+			<td>{$info['receiver']}</td>
+		</tr>
+		<tr>
+			<td>收件人手机号：</td>
+			<td>{$info['receiving_phone']}</td>
+		</tr>
+<notempty name="$info['receiving_company']">
+		<tr>
+			<td>收件单位：</td>
+			<td>{$info['receiving_company']}</td>
+		</tr>
+		</notempty>
+		
+		<tr>
+			<td>收货地址：</td>
+			<td>{$info['receiving_address']}</td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>	
+		<tr>
+			<td colspan="2" style="text-align: center;font-size: 1.2em;font-weight: 600">快递信息</td>
+		</tr>
+		<notempty name="$info['name']">
+		<tr>
+			<td>快递公司：</td>
+			<td>{$info['name']}</td>
+		</tr>
+		</notempty>
+		
+		<tr>
+			<td>预计重量：</td>
+			<td>{$info['sender_estimated_weight']}</td>
+		</tr>
+		<tr>
+			<td>取件备注：</td>
+			<td>{$info['express_remarks']}</td>
+		</tr>
+	</table>
+		
+
+
+		</div>
+
+	
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+		</div>
+	</div>
+	
+	
+
+
+
+
+</block>
+<block name="script">
+	<script type="text/javascript">
+		function setaddr() {
+			$
+		}
+	</script>
+</block>
