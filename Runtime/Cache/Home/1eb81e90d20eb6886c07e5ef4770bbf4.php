@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-COMPATIBLE">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>快递</title>
-	<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/haoxun/Public/assets/global/img/public/logo.png" media="screen" />
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/frameset.css" type="text/css">
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/Logistical-PHP/Public/assets/global/img/public/logo.png" media="screen" />
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/frameset.css" type="text/css">
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
 	
-  <link rel="stylesheet" type="text/css" href="/framework/gitTest/haoxun/Public/assets/global/styles/tongcheng/tongcheng.css"/>
+  <link rel="stylesheet" type="text/css" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/tongcheng/tongcheng.css"/>
 
 	<script>
 		var _hmt = _hmt || [];
@@ -89,7 +89,7 @@
 		<div class="row">
 			<div class="col-md-12" style="padding: 0;">
 				<div class="centerimgbox">
-					<div class="centerimg"><img class="img-responsive" src="/framework/gitTest/haoxun/Public/assets/global/img/bg/loginbg.jpg" "></div>
+					<div class="centerimg"><img class="img-responsive" src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/bg/loginbg.jpg" "></div>
 					<div class="center_container">
 						<h1>同城速递1小时到达，300万配送员为您服务</h1>
 						<h3>帮取件，代送件，随时下单，立刻上门</h3>
@@ -120,7 +120,7 @@
 				<div class="linkus">
 					<div>关注我们</div>
 					<div style="margin-top: 5px;">
-						<img src="/framework/gitTest/haoxun/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
+						<img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
 						
 					</div>
 				</div>
@@ -137,9 +137,9 @@
 		</div>
 	</footer>
 </body>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 
 	

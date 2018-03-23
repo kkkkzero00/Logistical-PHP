@@ -11,23 +11,10 @@
 <link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
 	
     <link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
-   
    <style>
-   	.container-totton-con table tr td:first-child{
-		width: 30%;
+   	.information table td a{
+   		margin-right: 10px;
    	}
-     @media screen and (max-width: 960px) {
-      .orderrow{
-        width: 100%;
-        margin: 0 auto;
-      }
-     }
-     @media screen and (min-width: 960px) {
-      .orderrow{
-        width: 80%;
-        margin: 0 auto;
-      }
-     }
    </style>
    
 
@@ -105,7 +92,7 @@
 	<div id="main">
 		
     <div class="containers" style="margin: 0;padding: 0">
-	<div class="row">
+	<div class="row" style="margin: 0;padding: 0">
 		<div class="col-md-12" style="margin: 0;padding: 0">
 			<div  class="index-center">
 				<div class="index-center-img"><img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
@@ -119,37 +106,46 @@
 </div>		
 	
 	<div class="container">
-		<div class="row orderrow" >
+		<div class="row" style="width: 80%;margin: 0 auto;">
 			<div class="col-md-12">
 
 				<div class="container-botton">
 
-<div class="container-totton-con">
-			<div class="bottontitle"><span class="bottontitle-span1">加入合作</span><span class="bottontitle-span2">合作共赢<span></div>
-			<div class="joinmessage">
-				<table class="table" style="width: 80%;margin: 0 auto;">
-					<tr>
-						<td>全国加盟热线：</td>
-						<td>0791-86862855</td>
-					</tr>
-					<tr>
-						<td>邮箱：</td>
-						<td>bangdage2017@163.com</td>
-					</tr>
-					<tr>
-						<td >地址及联系方式：</td>
-						<td>江西省南昌市东湖区证券街紫金城红郡-西4门</td>
-					</tr>
-					
-					
-					<tr>
-						<td>如有疑问可以直接联系在线客服：</td>
-						<td><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=121663757&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:121663757:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></td>
-					</tr>
-				</table>
+<div class="container-totton-con" style="min-height: 400px;">
 
-			</div>
-		
+			<div class="bottontitle"><span class="bottontitle-span1">管理上门寄件地址</span><a href="<?php echo U('index/addaddr',array('flag'=>0));?>" style="margin-left: 20px;"><button type="button" class="btn btn-info"">新增地址</button></a></div>
+			
+  
+  		<div class="information" style="text-align: center;margin-top: 15px;">
+			<table class="table table-striped table-bordered" style="width: 80%;margin:0 auto;text-align: center;">
+				<tr>
+					<td>序号</td>
+					<td>地址</td>
+					<td>是否为默认地址</td>
+					<td>操作</td>
+					
+				</tr>
+				<?php if(is_array($addr)): $i = 0; $__LIST__ = $addr;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$add): $mod = ($i % 2 );++$i;?><tr>
+					<td><?php echo ($add['id']); ?></td>
+					<td><?php echo ($add['addr']); ?></td>
+					<td><?php if($add['sign']==1){echo "是";}else{echo "否";} ?></td>
+					<td style="text-align: left;"><a href="<?php echo U('index/setaddr',array('id'=>$add['id'],'flag'=>0));?>" ">设为默认地址</a><a href="<?php echo U('index/changeaddr',array('id'=>$add['id'],'flag'=>0));?>">编辑</a><?php if(($add['sign'] == 0)): ?><a href="<?php echo U('index/deleteaddr',array('id'=>$add['id'],'flag'=>0));?>">删除</a><?php endif; ?></td>
+					
+				</tr><?php endforeach; endif; else: echo "" ;endif; ?>
+			</table>
+	<!-- <span>订单号：<?php echo ($info['order_status']); ?></span> -->
+
+
+		</div>
+
+	
+
+
+
+
+
+
+
 </div>
 
 </div>
@@ -204,25 +200,7 @@
 <script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 
-	<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/catgroyd/jquery.material-cards.js" type="text/javascript"></script>
-	<script type="text/javascript">
-		$(function() {
-			$('.material-card').materialCard({
-				icon_close: 'fa-chevron-left',
-				icon_open: 'fa-thumbs-o-up',
-				icon_spin: 'fa-spin-fast',
-				card_activator: 'click'
-			});
-
-	//        $('.active-with-click .material-card').materialCard();
-
-
-			$('.material-card').on('shown.material-card show.material-card hide.material-card hidden.material-card', function (event) {
-				console.log(event.type, event.namespace, $(this));
-			});
-
-		});
-	</script>
+	
 
 
 </html>

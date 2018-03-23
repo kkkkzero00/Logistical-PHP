@@ -1,0 +1,208 @@
+[ 2018-03-22T13:10:35+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Payment/AliPay/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000644s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001190s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001424s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001624s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000124s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000300s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000168s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000170s ]
+NOTIC: [8] Undefined index: all G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 1040 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0006s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.004890s ]
+INFO: [ before_view ] --END-- [ RunTime:0.005056s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000337s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+NOTIC: [8] Undefined index: GLOBAL G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 37 行.
+NOTIC: [8] Undefined index: PLUGINS G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 38 行.
+NOTIC: [8] Undefined variable: _middle G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 199 行.
+NOTIC: [8] Undefined variable: _bottom G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 218 行.
+NOTIC: [8] Undefined variable: _script G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 277 行.
+NOTIC: [8] Undefined index: PLUGINS G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 279 行.
+NOTIC: [8] Undefined index: GLOBAL G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 285 行.
+NOTIC: [8] Undefined variable: hyMenu G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034374s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001541s ]
+
+[ 2018-03-22T13:10:36+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Payment/AliPay/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000676s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002489s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002795s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000197s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000474s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000268s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000261s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `haoxun_pay` WHERE `id` = 1  [ RunTime:0.0005s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000262s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.003573s ]
+NOTIC: [8] Undefined index: hy G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT `id`,`wx_app_id`,`key`,`wx_mch_id`,`alipay_pid`,`alipay_seller_email` FROM `haoxun_pay` WHERE `id` = 1 ORDER BY id desc LIMIT 10   [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 471 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000049s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.010706s ]
+
+[ 2018-03-22T13:10:38+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Payment/WeChat/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001456s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001661s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000135s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000319s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000183s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000182s ]
+NOTIC: [8] Undefined index: all G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 1040 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.005183s ]
+INFO: [ before_view ] --END-- [ RunTime:0.005355s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000570s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8] Undefined index: GLOBAL G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 37 行.
+NOTIC: [8] Undefined index: PLUGINS G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 38 行.
+NOTIC: [8] Undefined variable: _middle G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 199 行.
+NOTIC: [8] Undefined variable: _bottom G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 218 行.
+NOTIC: [8] Undefined variable: _script G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 277 行.
+NOTIC: [8] Undefined index: PLUGINS G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 279 行.
+NOTIC: [8] Undefined index: GLOBAL G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 285 行.
+NOTIC: [8] Undefined variable: hyMenu G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Payment\9c07dc003a2105c82c74ba68c02f614c.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041153s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000808s ]
+
+[ 2018-03-22T13:10:39+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Payment/WeChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001672s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001889s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000120s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000284s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000154s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000174s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `haoxun_pay` WHERE `id` = 2  [ RunTime:0.0004s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000250s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.002316s ]
+NOTIC: [8] Undefined index: hy G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT `id`,`wx_app_id`,`key`,`wx_mch_id`,`alipay_pid`,`alipay_seller_email` FROM `haoxun_pay` WHERE `id` = 2 ORDER BY id desc LIMIT 10   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 471 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.007019s ]
+

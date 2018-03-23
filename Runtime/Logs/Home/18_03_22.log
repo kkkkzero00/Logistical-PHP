@@ -1,0 +1,2880 @@
+[ 2018-03-22T11:31:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001618s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002284s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002639s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.4942s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0010s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0258s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0495s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0152s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0288s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0267s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000261s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000539s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000775s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000953s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000105s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001751s ]
+
+[ 2018-03-22T11:31:34+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001436s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000763s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000847s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001019s ]
+
+[ 2018-03-22T11:32:16+08:00 ] ::1 /framework/gitTest/Logistical-PHP/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0478s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001893s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002191s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000331s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021644s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000661s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000835s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2018-03-22T11:32:22+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001619s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0007s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0010s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 339 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000240s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028575s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000087s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001821s ]
+
+[ 2018-03-22T11:32:23+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001428s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001627s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000191s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000090s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000891s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2018-03-22T11:35:01+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001476s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001682s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000188s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000859s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2018-03-22T11:35:21+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001508s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001718s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000844s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000865s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001037s ]
+
+[ 2018-03-22T11:35:38+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001504s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001722s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024961s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000786s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000855s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2018-03-22T11:35:41+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001455s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001655s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000342s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000788s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2018-03-22T11:35:43+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000851s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001449s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0007s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0009s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000205s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000398s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000858s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001090s ]
+
+[ 2018-03-22T11:35:44+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/addr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001440s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001642s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-03-22T11:35:46+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001468s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2018-03-22T11:37:15+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000846s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001483s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001693s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025712s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025923s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000724s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000898s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001596s ]
+
+[ 2018-03-22T11:37:18+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001540s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001783s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000156s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024010s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000897s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2018-03-22T11:38:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001492s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001707s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000215s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025421s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000790s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000917s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001116s ]
+
+[ 2018-03-22T11:38:35+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001607s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001834s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0007s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0008s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000232s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000415s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027412s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027595s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000872s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-03-22T11:38:36+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001468s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001666s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019377s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000773s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001057s ]
+
+[ 2018-03-22T11:38:37+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001473s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000444s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000876s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000128s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001464s ]
+
+[ 2018-03-22T11:39:01+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001507s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025611s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025812s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001661s ]
+
+[ 2018-03-22T11:40:20+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001504s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001712s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000370s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024426s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024619s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001795s ]
+
+[ 2018-03-22T11:40:41+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001475s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_receiving_order` [ RunTime:0.0011s ]
+SQL: SELECT * FROM haoxun_receiving_order a INNER JOIN haoxun_area_manage as b on a.area_id = b.id  WHERE a.courier_number IN ('BE998841347DE')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Undefined index: order_status G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025218s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000814s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001584s ]
+
+[ 2018-03-22T11:40:51+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001468s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001674s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_receiving_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM haoxun_receiving_order a INNER JOIN haoxun_area_manage as b on a.area_id = b.id  WHERE a.courier_number IN ('BE998841347DE')  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000507s ]
+NOTIC: [8] Undefined index: order_status G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027292s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000840s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001401s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001633s ]
+
+[ 2018-03-22T11:40:56+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001482s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001912s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_receiving_order` [ RunTime:0.0010s ]
+SQL: SELECT * FROM haoxun_receiving_order a INNER JOIN haoxun_area_manage as b on a.area_id = b.id  WHERE a.courier_number IN ('BE998841347DE')  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000413s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000798s ]
+NOTIC: [8] Undefined index: order_status G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034210s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001071s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000149s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001176s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001455s ]
+
+[ 2018-03-22T11:41:00+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001621s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001858s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_receiving_order` [ RunTime:0.0014s ]
+SQL: SELECT * FROM haoxun_receiving_order a INNER JOIN haoxun_area_manage as b on a.area_id = b.id  WHERE a.courier_number IN ('BE998841347DE')  [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000211s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000436s ]
+NOTIC: [8] Undefined index: order_status G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032699s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000903s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000087s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001580s ]
+
+[ 2018-03-22T11:42:45+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001561s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001799s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_receiving_order` [ RunTime:0.0009s ]
+SQL: SELECT * FROM haoxun_receiving_order a INNER JOIN haoxun_area_manage as b on a.area_id = b.id  WHERE a.courier_number IN ('BE998841347DE')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000452s ]
+NOTIC: [8] Undefined index: order_status G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026223s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000823s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001403s ]
+
+[ 2018-03-22T11:49:01+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+NOTIC: [2] session_start(): Cannot send session cache limiter - headers already sent G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Common\functions.php 第 1263 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003201s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003647s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_receiving_order` [ RunTime:0.0014s ]
+SQL: SELECT * FROM haoxun_receiving_order a INNER JOIN haoxun_area_manage as b on a.area_id = b.id  WHERE a.courier_number IN ('BE998841347DE')  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000384s ]
+NOTIC: [8] Undefined index: order_status G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\bf3b4465296514de17e1f8dd92d84602.php 第 185 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028469s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000956s ]
+NOTIC: [2] Cannot modify header information - headers already sent G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\View.class.php 第 93 行.
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000090s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000275s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001308s ]
+
+[ 2018-03-22T11:49:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001458s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001668s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000170s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000087s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2018-03-22T11:49:33+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001669s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001875s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058906s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2018-03-22T11:49:37+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003283s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003736s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000168s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024342s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000895s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001124s ]
+
+[ 2018-03-22T11:50:41+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000854s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001459s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001664s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045790s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001072s ]
+
+[ 2018-03-22T11:50:44+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001462s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001667s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024029s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000838s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001068s ]
+
+[ 2018-03-22T11:50:46+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/addr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000685s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002223s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002574s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000848s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001310s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001568s ]
+
+[ 2018-03-22T12:00:54+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/addr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001456s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000159s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.050462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050664s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000776s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2018-03-22T12:00:58+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/tongcheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000844s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001459s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001660s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000286s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046920s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047349s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001685s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000106s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2018-03-22T12:01:02+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/citysend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001474s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0008s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = 11 AND `sign` = 1 AND `status` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000376s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044163s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000778s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001183s ]
+
+[ 2018-03-22T12:01:19+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/tongcheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001503s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001716s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000343s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2018-03-22T12:01:21+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/join.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001522s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001729s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000157s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019378s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001061s ]
+
+[ 2018-03-22T12:01:23+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001540s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001746s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000171s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000387s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024444s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000899s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000086s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001179s ]
+
+[ 2018-03-22T12:01:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001475s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000200s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000396s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000807s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000901s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001077s ]
+
+[ 2018-03-22T12:12:10+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001508s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001719s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0011s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028897s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029091s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000876s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001375s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001556s ]
+
+[ 2018-03-22T12:12:14+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001469s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001671s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000172s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000361s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024276s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000830s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001181s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001440s ]
+
+[ 2018-03-22T12:12:15+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001512s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001730s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0008s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000226s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029340s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001749s ]
+
+[ 2018-03-22T12:13:36+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001946s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002214s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0016s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0009s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028482s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001698s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001938s ]
+
+[ 2018-03-22T12:16:57+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001498s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001705s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: data G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0343s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0386s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0065s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0003s ]
+
+[ 2018-03-22T12:17:08+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001480s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: data G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0032s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0003s ]
+
+[ 2018-03-22T12:20:43+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001487s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001686s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0052s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0041s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0059s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0008s ]
+
+[ 2018-03-22T12:20:49+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000852s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001730s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001975s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: data G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:21:29+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001546s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001752s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000487s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032894s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033089s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2018-03-22T12:21:36+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000972s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001525s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001698s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:22:20+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001284s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001485s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001708s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 340 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000274s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000531s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000867s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000089s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000926s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2018-03-22T12:22:23+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001181s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001395s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001750s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002014s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0028s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0004s ]
+
+[ 2018-03-22T12:22:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002208s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: data G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0036s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0004s ]
+
+[ 2018-03-22T12:22:43+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001650s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001549s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001813s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: data G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0019s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 85 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0025s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 113 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = null  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:23:12+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000912s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001157s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001513s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001732s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0006s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 341 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030985s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000792s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000889s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2018-03-22T12:23:21+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001450s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 45 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 86 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 114 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 117 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0003s ]
+
+[ 2018-03-22T12:25:03+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001475s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 343 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000224s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000430s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030744s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-03-22T12:25:06+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002438s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002741s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 47 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 88 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 116 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0009s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 119 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0004s ]
+
+[ 2018-03-22T12:28:17+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001020s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001501s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001683s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 89 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 117 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0003s ]
+
+[ 2018-03-22T12:28:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001452s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0008s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 89 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 117 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:28:44+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000777s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001516s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 48 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0017s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 89 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 117 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 120 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0003s ]
+
+[ 2018-03-22T12:46:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001032s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001460s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0006s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 345 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000263s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000482s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055911s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000095s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001284s ]
+
+[ 2018-03-22T12:46:33+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001442s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001617s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0024s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0005s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0004s ]
+
+[ 2018-03-22T12:46:49+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002252s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002540s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0024s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:47:13+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000620s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000781s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001480s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 90 行.
+SQL: SELECT `id`,`area_name`,`area_parent_id` FROM `haoxun_area` WHERE `area_deep` = 2  [ RunTime:0.0023s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '14'  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = '212'  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:47:40+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001482s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0017s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 2 AND `area_parent_id` = 14  [ RunTime:0.0007s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = 14  [ RunTime:0.0002s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = 212  [ RunTime:0.0003s ]
+
+[ 2018-03-22T12:48:08+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000815s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001470s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001650s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0007s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 2 AND `area_parent_id` = 14  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 118 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = 14  [ RunTime:0.0003s ]
+NOTIC: [8] Use of undefined constant eq - assumed 'eq' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 121 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = 212  [ RunTime:0.0002s ]
+
+[ 2018-03-22T12:54:00+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0007s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001157s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001409s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001481s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0014s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0010s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000231s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031196s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031392s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000811s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001137s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001318s ]
+
+[ 2018-03-22T12:54:03+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/intelResolution.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001470s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001643s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_area` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 1  [ RunTime:0.0018s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `area_deep` = 2 AND `area_parent_id` = 14  [ RunTime:0.0004s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = 14  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`area_name` FROM `haoxun_area` WHERE `id` = 212  [ RunTime:0.0002s ]
+
+[ 2018-03-22T13:00:24+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/addr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001460s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001663s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000167s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000359s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2018-03-22T13:00:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/tongcheng.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000669s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001855s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002078s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000144s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028189s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001537s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000144s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001651s ]
+
+[ 2018-03-22T13:00:28+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/citysend.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001462s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0006s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = 11 AND `sign` = 1 AND `status` = 1 AND `flag` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021654s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000770s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2018-03-22T13:00:35+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/search.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001454s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033467s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033788s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000787s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001130s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001350s ]
+
+[ 2018-03-22T13:00:36+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001497s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001703s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0006s ]
+SQL: SELECT `phone`,`truename` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0006s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `is_identification` FROM `haoxun_users` WHERE `id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: flag G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 356 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000968s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2018-03-22T13:00:39+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/userinfo/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.2329s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0009s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001833s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003300s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003758s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `haoxun_users` WHERE `status` = 1 AND `id` = 11 LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_file` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `haoxun_frame_file` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000419s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000737s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000912s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001302s ]
+
+[ 2018-03-22T13:01:47+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/thinginfo/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001451s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001657s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0014s ]
+SQL: SELECT * FROM haoxun_express_name a INNER JOIN haoxun_send_order b on a.id=b.express_id  WHERE b.sender_userId = '11' AND b.status = 1 ORDER BY create_time desc,b.id desc LIMIT 0,5   [ RunTime:0.1178s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0017s ]
+SQL: SELECT `img_id` FROM `haoxun_users` WHERE `id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_file` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `haoxun_frame_file` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM haoxun_express_name a INNER JOIN haoxun_send_order b on a.id=b.express_id  WHERE b.sender_userId = '11' AND b.status = 1 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: list G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Home\Controller\IndexController.class.php 第 407 行.
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0021s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000841s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.147853s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.148146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000087s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000267s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000934s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2018-03-22T13:01:57+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/orderdetail/id/92/flag/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000755s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001478s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001688s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0012s ]
+SQL: SELECT a.sender,a.sender_phone,a.sender_company,a.fetchgoods_remarks,b.area_name,a.sender_address,a.receiver,a.receiving_phone,a.receiving_company,a.receiving_address,c.name,a.sender_estimated_weight,a.express_remarks FROM haoxun_send_order a INNER JOIN haoxun_area_manage as b on a.dot=b.id INNER JOIN haoxun_express_name as c on a.express_id=c.id  WHERE a.id = '92' AND a.status = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000399s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000881s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000093s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000265s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2018-03-22T13:02:05+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/manageorder/id/92.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001487s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001695s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0019s ]
+SQL: SELECT a.sender,a.sender_phone,a.sender_company,a.fetchgoods_remarks,b.area_name,a.sender_address,a.receiver,a.receiving_phone,a.receiving_company,a.receiving_address,c.name,a.sender_estimated_weight,a.express_remarks,a.id FROM haoxun_send_order a INNER JOIN haoxun_area_manage as b on a.dot=b.id INNER JOIN haoxun_express_name as c on a.express_id=c.id  WHERE a.id = '92' AND a.status = 1 LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `haoxun_area_manage` WHERE ( status = 1 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_express_name` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_express_name` WHERE ( status=1 )  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000229s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067768s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068101s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000093s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001293s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001594s ]
+
+[ 2018-03-22T13:02:17+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/orderdetail/id/89/flag/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000717s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001468s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001673s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0012s ]
+SQL: SELECT a.sender,a.sender_phone,a.sender_company,a.fetchgoods_remarks,b.area_name,a.sender_address,a.receiver,a.receiving_phone,a.receiving_company,a.receiving_address,c.name,a.sender_estimated_weight,a.express_remarks FROM haoxun_send_order a INNER JOIN haoxun_area_manage as b on a.dot=b.id INNER JOIN haoxun_express_name as c on a.express_id=c.id  WHERE a.id = '89' AND a.status = 1 LIMIT 1   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000355s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000796s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000870s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001041s ]
+
+[ 2018-03-22T13:02:22+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/citysendorder/id/11/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001444s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0008s ]
+SQL: SELECT `img_id` FROM `haoxun_users` WHERE `id` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_file` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_frame_file` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_city_send` [ RunTime:0.0347s ]
+SQL: SELECT * FROM `haoxun_city_send` WHERE `sender_userId` = 11 AND `status` = 1 ORDER BY create_time desc,id desc LIMIT 0,5   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `haoxun_city_send` WHERE `sender_userId` = 11 AND `status` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000364s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027019s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000259s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000885s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2018-03-22T13:02:26+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/userinfo/id/11.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001502s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001710s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_users` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `haoxun_users` WHERE `status` = 1 AND `id` = 11 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_file` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_frame_file` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `haoxun_send_order` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT `addr` FROM `haoxun_addr` WHERE `userid` = null AND `sign` = 1 AND `status` = 1 AND `flag` = 0 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000227s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000418s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000084s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000956s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2018-03-22T13:02:30+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/manageaddr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001472s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_addr` WHERE `userid` = 11 AND `status` = 1 AND `flag` = 0 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000336s ]
+NOTIC: [8] Undefined variable: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\c96d0d3e0b76875f72bfc10e008af73c.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040798s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000779s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001080s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001272s ]
+
+[ 2018-03-22T13:02:33+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/setaddr/id/11/flag/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001460s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001661s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: UPDATE `haoxun_addr` SET `sign`='1' WHERE `id` = 11 AND `userid` = 11 AND `flag` = 0 [ RunTime:0.0008s ]
+SQL: UPDATE `haoxun_addr` SET `sign`='0' WHERE `id` <> '11' AND `userid` = '11' AND `status` = 1 AND `flag` = 0 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000279s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000781s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046092s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046477s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001784s ]
+
+[ 2018-03-22T13:02:45+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/manageaddr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001454s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001656s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_addr` WHERE `userid` = 11 AND `status` = 1 AND `flag` = 0 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000339s ]
+NOTIC: [8] Undefined variable: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\c96d0d3e0b76875f72bfc10e008af73c.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025700s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000760s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001080s ]
+
+[ 2018-03-22T13:02:47+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/setaddr/id/15/flag/0.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001726s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001942s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0010s ]
+SQL: UPDATE `haoxun_addr` SET `sign`='1' WHERE `id` = 15 AND `userid` = 11 AND `flag` = 0 [ RunTime:0.0005s ]
+SQL: UPDATE `haoxun_addr` SET `sign`='0' WHERE `id` <> '15' AND `userid` = '11' AND `status` = 1 AND `flag` = 0 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000278s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000576s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000747s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000081s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2018-03-22T13:02:48+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/managecitysendaddr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001870s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002111s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_addr` WHERE `userid` = 11 AND `status` = 1 AND `flag` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000341s ]
+NOTIC: [8] Undefined variable: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\2479f092eb3278b3821e182c704c47c6.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000871s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001064s ]
+
+[ 2018-03-22T13:02:51+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/addaddr/flag/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001469s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001678s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000472s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000809s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000085s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001119s ]
+
+[ 2018-03-22T13:03:02+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/index/managecitysendaddr.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001491s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_addr` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `haoxun_addr` WHERE `userid` = 11 AND `status` = 1 AND `flag` = 1 ORDER BY id  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000337s ]
+NOTIC: [8] Undefined variable: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\Home\2479f092eb3278b3821e182c704c47c6.php 第 136 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022860s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023043s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000765s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000831s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001003s ]
+
+[ 2018-03-22T13:05:41+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/Home/Index/registers.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `haoxun_pay` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `haoxun_pay` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001453s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001620s ]
+SQL: SHOW COLUMNS FROM `haoxun_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `haoxun_category` WHERE `status` = 1 AND `switch` = 1 ORDER BY id  [ RunTime:0.0004s ]
+NOTIC: [8] Use of undefined constant TOP_SDK_WORK_DIR - assumed 'TOP_SDK_WORK_DIR' G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Org\Alidayu\top\TopClient.class.php 第 331 行.
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000100s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000295s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+

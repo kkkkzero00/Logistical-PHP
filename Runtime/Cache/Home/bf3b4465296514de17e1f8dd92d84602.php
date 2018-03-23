@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-COMPATIBLE">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>快递</title>
-	<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/haoxun/Public/assets/global/img/public/logo.png" media="screen" />
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/frameset.css" type="text/css">
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/Logistical-PHP/Public/assets/global/img/public/logo.png" media="screen" />
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/frameset.css" type="text/css">
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
 	
-    <link href="/framework/gitTest/haoxun/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+    <link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
    <style>
      .payattention{
       color: red;
@@ -122,100 +122,85 @@
 	<div id="main">
 		
     <div class="containers" style="margin: 0;padding: 0">
-	<div class="row" style="margin: 0;padding: 0">
-		<div class="col-md-12" style="margin: 0;padding: 0">
-			<div  class="index-center">
-				<div class="index-center-img"><img src="/framework/gitTest/haoxun/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
-				
-			</div>
-		</div>
-	</div>
-	
-	
-
-</div>		
+    	<div class="row" style="margin: 0;padding: 0">
+    		<div class="col-md-12" style="margin: 0;padding: 0">
+    			<div  class="index-center">
+    				<div class="index-center-img"><img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
+    				
+    			</div>
+    		</div>
+    	</div>
+    </div>		
 	
 	<div class="container">
 		<div class="row orderrow" >
 			<div class="col-md-12">
 
 				<div class="container-botton">
+                        <div class="container-totton-con">
+                			<div class="bottontitle">
+                                <span class="bottontitle-span1">查询快递</span>
 
-<div class="container-totton-con">
+                                <span class="bottontitle-span2">输入订单号快速查询快递情况，支持批量查询，每个订单可用英文逗号隔开输入即可,如12,12</span>
+                            </div>
+                			
+                            <form class="form-horizontal" style="min-height: 400px" action="<?php echo U('index/search');?>" method="post">
+                    			<div class="group">
+                                  <div class="form-group" style="margin-top: 15px">
+                                    <div >
+                                    <center>
+                                      <input style="width: 80%" type="text" class="form-control" id="name1" placeholder="请输入运单号，支持批量查询，每个订单可用英文逗号隔开输入即可,如12,12" name="number">
+                                      </center>
+                                    </div>
+                                  </div>
+                                </div>
 
-			<div class="bottontitle"><span class="bottontitle-span1">查询快递</span><span class="bottontitle-span2">输入订单号快速查询快递情况，支持批量查询，每个订单可用英文逗号隔开输入即可,如12,12<span></div>
-			<form class="form-horizontal" style="min-height: 400px" action="<?php echo U('index/search');?>" method="post">
-			<div class="group">
-			
-  <div class="form-group" style="margin-top: 15px">
-    <div >
-    <center>
-      <input style="width: 80%" type="text" class="form-control" id="name1" placeholder="请输入运单号，支持批量查询，每个订单可用英文逗号隔开输入即可,如12,12" name="number">
-      </center>
-    </div>
-  </div>
-</div>
+                                <div class="form-group">
+                                    <div>
+                                    <center>
+                                      <input type="submit" class="btn btn-primary" value="立即查询" name="submit">
+                                      </center>
+                                    </div>
+                                </div>
+                              	<?php if(!empty($info)): ?><div class="information" style="text-align: center;margin-top: 15px;">
+                              			<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$t): $mod = ($i % 2 );++$i;?><table class="table table-striped table-bordered" style="width: 80%;margin:10px auto;text-align: center; table-layout:fixed;word-wrap:break-word;">
+                                				<tr>
+                                					<td>订单号</td>
+                                					<td>入库站点</td>
+                                					<td>入库时间</td>
+                                					<td>状态</td>
+                                					<td>签收时间</td>
+                                				</tr>
+                                				<tr>
+                                					<td><?php echo ($t['courier_number']); ?> </td>
+                                					<td><?php echo ($t['area_name']); ?></td>
+                                					<td><?php if(!empty($t['create_time'])): echo (date('Y-m-d H:i:s',$t['create_time'])); endif; ?></td>
+                                					<td style="color: red"><?php echo ($t['order_status']); ?></td>
+                                					<td>
+                                						<?php if(!empty($t['receipt_time'])): echo (date('Y-m-d H:i:s',$t['receipt_time'])); endif; ?>
+                                						
+                                			</td>
+                                				</tr>
+                                			</table><?php endforeach; endif; else: echo "" ;endif; ?>
+                                	       <!-- <span>订单号：<?php echo ($info['order_status']); ?></span> -->
+                            		</div>
 
-  <div class="form-group">
-    <div>
-    <center>
-      <input type="submit" class="btn btn-primary" value="立即查询" name="submit">
-      </center>
-    </div>
-  </div>
-  	<?php if(!empty($info)): ?><div class="information" style="text-align: center;margin-top: 15px;">
-  			<?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$t): $mod = ($i % 2 );++$i;?><table class="table table-striped table-bordered" style="width: 80%;margin:10px auto;text-align: center; table-layout:fixed;word-wrap:break-word;">
-				<tr>
-					<td>订单号</td>
-					<td>入库站点</td>
-					<td>入库时间</td>
-					<td>状态</td>
-					<td>签收时间</td>
-				</tr>
-				<tr>
-					<td><?php echo ($t['courier_number']); ?> </td>
-					<td><?php echo ($t['area_name']); ?></td>
-					<td><?php if(!empty($t['create_time'])): echo (date('Y-m-d H:i:s',$t['create_time'])); endif; ?></td>
-					<td style="color: red"><?php echo ($t['order_status']); ?></td>
-					<td>
-						<?php if(!empty($t['receipt_time'])): echo (date('Y-m-d H:i:s',$t['receipt_time'])); endif; ?>
-						
-			</td>
-				</tr>
-			</table><?php endforeach; endif; else: echo "" ;endif; ?>
-	<!-- <span>订单号：<?php echo ($info['order_status']); ?></span> -->
+                            	<?php else: ?>
+                            		<?php if(isset($_POST['submit'])&&isset($_POST['number'])): ?><div class="information" style="text-align: center;margin-top: 15px;color: red;">
+                            				<span>订单号：<?php echo ($_POST['number']); ?> 暂未到达本公司或订单不存在</span>
+                            			</div>
+                            		<?php else: ?>
+                            			<div class="information" style="text-align: center;margin-top: 15px;color: red;">
+                            				<span></span>
+                            			</div><?php endif; endif; ?>
+                            </form>
+                        </div>
+                </div>
 
-
-		</div>
-
-	<?php else: ?>
-		<?php if(isset($_POST['submit'])&&isset($_POST['number'])): ?><div class="information" style="text-align: center;margin-top: 15px;color: red;">
-				<span>订单号：<?php echo ($_POST['number']); ?> 暂未到达本公司或订单不存在</span>
-			</div>
-		<?php else: ?>
-			<div class="information" style="text-align: center;margin-top: 15px;color: red;">
-				<span></span>
-			</div><?php endif; endif; ?>
-</form>
-
-
-
-
-
-
-</div>
-
-</div>
-
-</div>
+            </div>
 		</div>
 	</div>
 	
-	
-
-
-
-
 
 	</div>
 
@@ -235,7 +220,7 @@
 				<div class="linkus">
 					<div>关注我们</div>
 					<div style="margin-top: 5px;">
-						<img src="/framework/gitTest/haoxun/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
+						<img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
 						
 					</div>
 				</div>
@@ -252,9 +237,9 @@
 		</div>
 	</footer>
 </body>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 
 	

@@ -19,24 +19,24 @@
 </object>
 <!-- PRINT SERVICE -->
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL STYLES -->
 
 <?php if(is_array($_assets["GLOBAL"]["CSS"])): foreach($_assets["GLOBAL"]["CSS"] as $key=>$item): ?><link href="_PUBLIC__/assets/global/styles/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
-<?php if(is_array($_assets["PLUGINS"]["CSS"])): foreach($_assets["PLUGINS"]["CSS"] as $key=>$item): ?><link href="/framework/gitTest/haoxun/Public/assets/global/plugins/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
-<?php if(is_array($_assets["PAGES"]["CSS"])): foreach($_assets["PAGES"]["CSS"] as $key=>$item): ?><link href="/framework/gitTest/haoxun/Public/assets/pages/styles/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PLUGINS"]["CSS"])): foreach($_assets["PLUGINS"]["CSS"] as $key=>$item): ?><link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PAGES"]["CSS"])): foreach($_assets["PAGES"]["CSS"] as $key=>$item): ?><link href="/framework/gitTest/Logistical-PHP/Public/assets/pages/styles/<?php echo ($item); ?>" rel="stylesheet" type="text/css"/><?php endforeach; endif; ?>
 
 <!-- END PAGE LEVEL STYLES -->
 <!-- BEGIN THEME STYLES -->
-<link href="/framework/gitTest/haoxun/Public/assets/global/styles/components.css" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/styles/plugins.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/layout/styles/layout.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/layout/styles/themes/blue.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/styles/hyframe.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/layout/styles/layout.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/layout/styles/themes/blue.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/hyframe.css" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -50,7 +50,7 @@
         <!-- BEGIN LOGO -->
         <div class="page-logo">
             <a href="index.html">
-            <img src="/framework/gitTest/haoxun/Public/assets/layout/img/logo-default.png" alt="logo" class="logo-default"/>
+            <img src="/framework/gitTest/Logistical-PHP/Public/assets/layout/img/logo-default.png" alt="logo" class="logo-default"/>
             </a>
             <div class="menu-toggler sidebar-toggler">
                 <!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
@@ -173,7 +173,7 @@
             <div class="page-bar">
                 
 <ul class="page-breadcrumb">
-	<li><i class="fa fa-home"></i> <a href="/framework/gitTest/haoxun">首页</a> <i class="fa fa-angle-right"></i></li>
+	<li><i class="fa fa-home"></i> <a href="/framework/gitTest/Logistical-PHP">首页</a> <i class="fa fa-angle-right"></i></li>
     <li><a href="javascript:;">欢迎中心</a></li>
 </ul>
 
@@ -236,38 +236,38 @@
 <!-- BEGIN JAVASCRIPTS -->
 <script type="text/javascript">
 /* GLOBAL URL */
-var _ROOT_ = '/framework/gitTest/haoxun',
-    _PUBLIC_ = '/framework/gitTest/haoxun/Public',
-    _INDEX_ = '/framework/gitTest/haoxun/index.php',
-    _ACTION_ = '/framework/gitTest/haoxun/index.php/System/Index/index',
-    _MODULE_ = '/framework/gitTest/haoxun/index.php/System',
-    _CONTROLLER_ = '/framework/gitTest/haoxun/index.php/System/Index';
+var _ROOT_ = '/framework/gitTest/Logistical-PHP',
+    _PUBLIC_ = '/framework/gitTest/Logistical-PHP/Public',
+    _INDEX_ = '/framework/gitTest/Logistical-PHP/index.php',
+    _ACTION_ = '/framework/gitTest/Logistical-PHP/index.php/System/Index/index',
+    _MODULE_ = '/framework/gitTest/Logistical-PHP/index.php/System',
+    _CONTROLLER_ = '/framework/gitTest/Logistical-PHP/index.php/System/Index';
 </script>
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/respond.min.js"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/excanvas.min.js"></script> 
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/respond.min.js"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/excanvas.min.js"></script> 
 <![endif]-->
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.blockui.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/store-json2.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/crypto.custom.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootbox.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.blockui.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/store-json2.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/crypto.custom.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootbox.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 
-<?php if(is_array($_assets["PLUGINS"]["JS"])): foreach($_assets["PLUGINS"]["JS"] as $key=>$item): ?><script src="/framework/gitTest/haoxun/Public/assets/global/plugins/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PLUGINS"]["JS"])): foreach($_assets["PLUGINS"]["JS"] as $key=>$item): ?><script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
 <!-- BEGIN CORE SCRIPTS -->
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/metronic.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/layout/scripts/layout.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/hyframe.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/hyframe.js" type="text/javascript"></script>
 <!-- END CORE SCRIPTS -->
-<?php if(is_array($_assets["GLOBAL"]["JS"])): foreach($_assets["GLOBAL"]["JS"] as $key=>$item): ?><script src="/framework/gitTest/haoxun/Public/assets/global/scripts/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
-<?php if(is_array($_assets["PAGES"]["JS"])): foreach($_assets["PAGES"]["JS"] as $key=>$item): ?><script src="/framework/gitTest/haoxun/Public/assets/pages/scripts/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
+<?php if(is_array($_assets["GLOBAL"]["JS"])): foreach($_assets["GLOBAL"]["JS"] as $key=>$item): ?><script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
+<?php if(is_array($_assets["PAGES"]["JS"])): foreach($_assets["PAGES"]["JS"] as $key=>$item): ?><script src="/framework/gitTest/Logistical-PHP/Public/assets/pages/scripts/<?php echo ($item); ?>" type="text/javascript"></script><?php endforeach; endif; ?>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script type="text/javascript">
 jQuery(document).ready(function() {

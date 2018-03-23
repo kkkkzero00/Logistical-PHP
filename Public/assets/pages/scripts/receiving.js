@@ -248,48 +248,55 @@ var receiving = function(){
                         
                         input.bind('change',function(){
                             var formData = formScanAdd.find("form").serialize();
-                            
-                            $.ajax({
-                              url:$.U('ajax?q=judgeRepeat'),
-                              data:formData,
-                              async:false,
-                              type:'post',
-                              success:function(r){
-                                  if(r.info == undefined){
-                                      setInfo(2,input,"网络传输错误！请检查一下网络连接！");
-                                      return;
-                                  }
-                                  input_val = input.val();
-                                  removeSpan(input);
-              
-                                  if(r.status===true){
-                                    isFail = false;
-                                    setInfo(1,input,r.info)
-                                    // submitBtn.removeAttr("disabled");
-                                    turnUpAudio(validateForm.valid());
-                                    input.val("");
 
-                                    return;  
-                                    
-                                  }else{
-                                    
-                                    setInfo(2,input,r.info)
-                                    isFail = true;
-                                    turnUpAudio(false);
-                                    input.val("");
-                                    return;
-                                    // if(isFail||input_val.length>=17){        
-                                    //     input.val("");
-                                    // }   
-                                  }
+                            new Promise((resolve,reject)=>{
+                                $.ajax({
+                                    url:$.U('ajax?q=judgeRepeat'),
+                                    data:formData,
+                                    async:false,
+                                    type:'post',
+                                    success:function(r){
+                                        console.log(r);
+                                        resolve(r);
+                                    },
+                                    error:function(r){
+                                        reject();
+                                    }
+                                })
+                            }).then((res)=>{
+                                // if(r.info == undefined){
+                                //     setInfo(2,input,"网络传输错误！请检查一下网络连接！");
+                                //     return;
+                                // }
+                                // input_val = input.val();
+                                // removeSpan(input);
+            
+                                // if(r.status===true){
+                                //   isFail = false;
+                                //   setInfo(1,input,r.info)
+                                //   // submitBtn.removeAttr("disabled");
+                                //   turnUpAudio(validateForm.valid());
+                                //   input.val("");
+
+                                //   return;  
                                   
-                              },
-                              error:function(r){
-                                  removeSpan(input);
-                                  setInfo(2,input,"网络传输错误！请检查一下网络连接！");
-                                  turnUpAudio(false); 
-                              }
+                                // }else{
+                                  
+                                //   setInfo(2,input,r.info)
+                                //   isFail = true;
+                                //   turnUpAudio(false);
+                                //   input.val("");
+                                //   return;
+                                //   // if(isFail||input_val.length>=17){        
+                                //   //     input.val("");
+                                //   // }   
+                                // }
+                            }).catch(res => {
+                                  // removeSpan(input);
+                                  // setInfo(2,input,"网络传输错误！请检查一下网络连接！");
+                                  // turnUpAudio(false); 
                             })
+
                         }) 
                    }
 

@@ -25,23 +25,27 @@ class IndexController extends BaseController
         //原始地址
         $addr = trim($_POST['data']);
         //$addr = '河曦南南昌市南昌县高新开发区师大';
-
-        //过滤非法字符
+        // var_dump($addr);
+        //过滤非法字符,获取当前字符的编码
         $encode = mb_detect_encoding($addr, array("ASCII",'UTF-8',"GB2312","GBK",'BIG5'));
+        // var_dump($encode);
         $str_encode = mb_convert_encoding($addr, 'UTF-8', $encode);
 
+        // var_dump($str_encode);
+
+        /*/u 表示按unicode(utf-8)匹配（主要针对多字节比如汉字）*/
         $illegal_char = '/[^\dA-Za-z\x{4e00}-\x{9fa5}\-]/u';//匹配非汉字字母数字下划线
         $replace = '';
+        //把汉字字母数字下划线意外的字符给去掉
         $addr = preg_replace($illegal_char,$replace,$addr);
-
+        // var_dump($addr);
         //拆分后地址
         $province_id = null;
         $city_id = null;
         $detail_addr = null;
 
         //先进行省份检索
-        $provinces = M('area')->where(
-            array('area_deep' => array(eq,1))
+        $provinces = M('area')->where(array('area_deep' => array('eq',1))
         )->getField('id,area_name',true);
 
         foreach($provinces as $k => $province){
@@ -49,16 +53,17 @@ class IndexController extends BaseController
             if(($pro_position = mb_strpos($addr, $province)) !== false){
                 $province_id = $k;
                 $citys = M('area')->where(
-                    array('area_deep' => array(eq,2),'area_parent_id' => array(eq,$province_id))
+                    array('area_deep' => array('eq',2),'area_parent_id' => array('eq',$province_id))
                 )->getField('id,area_name',true);
-
+                // var_dump($citys);
                 //根据可能的省份尝试检索城市
                 foreach($citys as $v => $city){
+
                     $city = trim($city);
                     if(($city_position = mb_strpos($addr, $city)) !== false){
                         $city_id = $v;
                         $cityLen = mb_strlen($city);
-                        break 2;
+                        break 2;//跳出两重循环
                     }
                     $cityLen = mb_strlen($city);
                     //如果上一步未检索到，执行模糊检索
@@ -82,8 +87,10 @@ class IndexController extends BaseController
             $city_id = null;
 
             $citys = M('area')->where(
-                array('area_deep' => array(eq,2))
+                array('area_deep' => array('eq',2))
             )->getField('id,area_name,area_parent_id',true);
+
+
             foreach($citys as $k => $city){
                 if(($city_position = mb_strpos($addr, $city['area_name'])) !== false){
                     $city_id = $city['id'];
@@ -108,22 +115,31 @@ class IndexController extends BaseController
 
         //切割详细地址
         $detail_addr = mb_substr($addr, $city_position + $cityLen, mb_strlen($addr), 'utf-8');
+        var_dump($detail_addr);
         //返回ajax数据
-        $province_name = M('area')->where(
-            array('id' => array(eq,$province_id))
-        )->getField('id,area_name',true);
-        $city_name = M('area')->where(
-            array('id' => array(eq,$city_id))
-        )->getField('id,area_name',true);
-        $data = array($province_name[$province_id],
+        $province_name = M('area')
+                        ->where(
+                            array('id' => array('eq',$province_id))
+                        )
+                        ->getField('id,area_name',true);
+
+        $city_name = M('area')
+                        ->where(
+                            array('id' => array('eq',$city_id))
+                        )
+                        ->getField('id,area_name',true);
+        
+        $data = array(
+            $province_name[$province_id],
             $city_name[$city_id],
-            $detail_addr);
+            $detail_addr
+        );
 
         $this->ajaxReturn($data);
         //}
     }
-    public function citysend()
-    {
+
+    public function citysend(){
         $uid = session('id');
         if (!empty($uid)) {
             if (isset($_POST['submit'])) {
@@ -186,9 +202,10 @@ class IndexController extends BaseController
             ->assign('addr',$addr);
         $this->display();
     }
+
     public function managecitysend(){
-         $uid = session('id');
-         $id=I('get.id');
+        $uid = session('id');
+        $id=I('get.id');
         if (!empty($uid)) {
             if (isset($_POST['submit'])&&isset($id)) {
                 if (!empty($_POST['sender']) && !empty($_POST['senderphone']) && !empty($_POST['recipients2']) && !empty($_POST['receivename']) && !empty('receivephone') && !empty($_POST['sendaddr']) && !empty($_POST['remark2'])) {
@@ -258,7 +275,7 @@ class IndexController extends BaseController
     }
 
     public function order(){
-  $userid=session('id');
+        $userid=session('id');
         if (isset($_POST['submit']) && isset($userid)) {
             if (!empty($_POST['sender']) && !empty($_POST['senderphone']) && !empty($_POST['receivename']) && !empty($_POST['receivephone'])) {
                 if (!empty($_POST['recipients2'])) {
@@ -342,9 +359,10 @@ class IndexController extends BaseController
         $this->display();
     }
 
-   public function search()
-    {
+    public function search(){
+
         if (isset($_POST['submit'])) {
+            // var_dump($_POST['submit']);
             $ExpressNumber = I('post.number');
             $ExpressNumbe = explode(',',$ExpressNumber);
             
@@ -359,14 +377,13 @@ class IndexController extends BaseController
             ->join('__AREA_MANAGE__ as b on a.area_id = b.id')
             ->where(array('a.courier_number' => array('in',$exid)))
             ->select();
-          
+            // var_dump($info);
             $info = D('SendOrder')->DeepChangeStatus($info);
             
                
             $this->assign('info', $info);
-
-
         }
+
         $this->display();
     }
 
@@ -603,7 +620,8 @@ class IndexController extends BaseController
         }
 
     }
- public function name_certification()
+    
+    public function name_certification()
     {
         $upload = new \Think\Upload();// 实例化上传类
         $upload->rootPath = './Public';
@@ -641,6 +659,7 @@ class IndexController extends BaseController
 
         }
     }
+
     public function userimgupload()
     {
         $upload = new \Think\Upload();// 实例化上传类
@@ -694,6 +713,7 @@ class IndexController extends BaseController
     public function manageorder()
     {
         $uid = session('id');
+
         if (!empty($uid)) {
             $id = I('get.id');
             if (!empty($id)) {
@@ -1182,7 +1202,8 @@ class IndexController extends BaseController
 
                     $b = D('Users')->create();
                     $b['password'] = md5($b['password']);
-                    $b['update_time'] = time();                    $save_password = D('Users')->where(array('status' => 1, 'id' => $id))->save($b);
+                    $b['update_time'] = time();                    
+                    $save_password = D('Users')->where(array('status' => 1, 'id' => $id))->save($b);
                     if ($save_password) {
                         $this->success('修改成功', U('Index/userinfo'), 1);
                     } else {

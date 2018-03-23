@@ -5,13 +5,13 @@
 	<meta http-equiv="X-UA-COMPATIBLE">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>快递</title>
-	<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/haoxun/Public/assets/global/img/public/logo.png" media="screen" />
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/frameset.css" type="text/css">
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/Logistical-PHP/Public/assets/global/img/public/logo.png" media="screen" />
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/frameset.css" type="text/css">
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
 	
-    <link href="/framework/gitTest/haoxun/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
-    <script type="text/javascript" src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js"></script>
+    <link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js"></script>
    <style>
      .payattention{
       color: red;
@@ -121,7 +121,7 @@
 	<div class="row" style="margin: 0;padding: 0">
 		<div class="col-md-12" style="margin: 0;padding: 0">
 			<div  class="index-center">
-				<div class="index-center-img"><img src="/framework/gitTest/haoxun/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
+				<div class="index-center-img"><img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
 				
 			</div>
 		</div>
@@ -262,7 +262,7 @@
 				<div class="linkus">
 					<div>关注我们</div>
 					<div style="margin-top: 5px;">
-						<img src="/framework/gitTest/haoxun/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
+						<img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
 						
 					</div>
 				</div>
@@ -279,12 +279,12 @@
 		</div>
 	</footer>
 </body>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 
-<script type="text/javascript" src="/framework/gitTest/haoxun/Public/assets/global/scripts/order.js"></script>
+<script type="text/javascript" src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/order.js"></script>
 <script type="text/javascript">
     var province="<?php echo $addr['addr'];?>".toString();var sprovince=province.substr(0,2);var scity=province.substr(3,4);$("#s_province option:first").val(sprovince);$("#s_province option:first").html(sprovince);$("#s_city option:first").val(scity);$("#s_city option:first").html(scity);
   </script>

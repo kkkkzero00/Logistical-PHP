@@ -15,23 +15,23 @@
 <meta content="<?php echo S('SITE_ADMIN_DESCRIPTION');?>" name="description"/>
 <meta content="HomyitStudio" name="author"/>
 <!-- BEGIN PAGE LOAD PROGRESSBAR -->
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/pace/pace.custom.min.js" type="text/javascript"></script>
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/pace/themes/blue/pace-theme-flat-top.css" rel="stylesheet" type="text/css"/>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/pace/pace.custom.min.js" type="text/javascript"></script>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/pace/themes/blue/pace-theme-flat-top.css" rel="stylesheet" type="text/css"/>
 <!-- END PAGE LOAD PROGRESSBAR -->
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL STYLES -->
-<link href="/framework/gitTest/haoxun/Public/assets/pages/styles/login.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/pages/styles/login.css" rel="stylesheet" type="text/css"/>
 <!-- END PAGE LEVEL STYLES -->
 <!-- BEGIN THEME STYLES -->
-<link href="/framework/gitTest/haoxun/Public/assets/global/styles/components.css" id="style_components" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/styles/plugins.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/layout/styles/layout.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/layout/styles/themes/blue.css" rel="stylesheet" type="text/css"/>
-<link href="/framework/gitTest/haoxun/Public/assets/global/styles/hyframe.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/components.css" id="style_components" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/plugins.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/layout/styles/layout.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/layout/styles/themes/blue.css" rel="stylesheet" type="text/css"/>
+<link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/hyframe.css" rel="stylesheet" type="text/css"/>
 <!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico"/>
 </head>
@@ -139,34 +139,34 @@
 <!-- BEGIN JAVASCRIPTS -->
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/respond.min.js"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/excanvas.min.js"></script> 
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/respond.min.js"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/excanvas.min.js"></script> 
 <![endif]-->
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.blockui.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/store-json2.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/crypto.custom.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.blockui.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/store-json2.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/crypto.custom.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
 <!-- END CORE PLUGINS -->
 <!-- BEGIN CORE SCRIPTS -->
 <script type="text/javascript">
 /* GLOBAL URL */
-var _ROOT_ = '/framework/gitTest/haoxun',
-    _PUBLIC_ = '/framework/gitTest/haoxun/Public',
-    _INDEX_ = '/framework/gitTest/haoxun/index.php',
-    _ACTION_ = '/framework/gitTest/haoxun/index.php/System/HyStart/login',
-    _MODULE_ = '/framework/gitTest/haoxun/index.php/System',
-    _CONTROLLER_ = '/framework/gitTest/haoxun/index.php/System/HyStart';
+var _ROOT_ = '/framework/gitTest/Logistical-PHP',
+    _PUBLIC_ = '/framework/gitTest/Logistical-PHP/Public',
+    _INDEX_ = '/framework/gitTest/Logistical-PHP/index.php',
+    _ACTION_ = '/framework/gitTest/Logistical-PHP/index.php/System/HyStart/login',
+    _MODULE_ = '/framework/gitTest/Logistical-PHP/index.php/System',
+    _CONTROLLER_ = '/framework/gitTest/Logistical-PHP/index.php/System/HyStart';
 </script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/metronic.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/layout/scripts/layout.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/hyframe.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/layout/scripts/layout.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/hyframe.js" type="text/javascript"></script>
 <!-- END CORE SCRIPTS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.backstretch.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/pages/scripts/login.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery-validation/jquery.validate.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.backstretch.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/pages/scripts/login.js" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script type="text/javascript">
 jQuery(document).ready(function() {

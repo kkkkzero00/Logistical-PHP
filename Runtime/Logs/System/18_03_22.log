@@ -1,0 +1,873 @@
+[ 2018-03-22T13:09:10+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001468s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001670s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0470s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0239s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0475s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0252s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0006s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.029506s ]
+INFO: [ before_view ] --END-- [ RunTime:0.029688s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000354s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000546s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059436s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001006s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001180s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000795s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2018-03-22T13:09:12+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001565s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002535s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002810s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:09:15+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/User/profile.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001485s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001689s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+ERR: 权限验证失败：当前操作无权访问！
+
+[ 2018-03-22T13:09:18+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001535s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001715s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:09:20+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/switchs/role/encrypt_act-xgi0Q22HHC9JiWr15xPKae0KlQ_YC3w3mVGPyiO7NqA0-slZ4BiGBjPzHSWPLJFlh8LEphQnGcNNPUSKwiT7MA.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001797s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002029s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0338s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0348s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0397s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0293s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0425s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0010s ]
+
+[ 2018-03-22T13:09:20+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000617s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001457s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001657s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0010s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0021s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.006399s ]
+INFO: [ before_view ] --END-- [ RunTime:0.006568s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000821s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000081s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000898s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2018-03-22T13:09:21+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001522s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002686s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002992s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:09:23+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001423s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002514s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002836s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:09:28+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/system
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001584s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001796s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0011s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.006686s ]
+INFO: [ before_view ] --END-- [ RunTime:0.006855s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000310s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000502s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000783s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000081s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2018-03-22T13:09:29+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002304s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002597s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:09:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/switchs/role/encrypt_act-pNR0FYFgjsMhVf9kk3UrRJe1O_lY4OYmwrYdDQ_-iEXAZHuncK_gTBERgV-2_6Ai5IKX7q62SlMhhvjgcI3gkQ.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000868s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001459s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0010s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=32 AND `status`=1 )  [ RunTime:0.0008s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=32 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0005s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0004s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0014s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+
+[ 2018-03-22T13:09:31+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001467s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001663s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0009s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0021s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0025s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.006847s ]
+INFO: [ before_view ] --END-- [ RunTime:0.007017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000498s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035325s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000079s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000883s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001055s ]
+
+[ 2018-03-22T13:09:32+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001479s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001662s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:10:01+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001563s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001737s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:11:50+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/switchs/role/encrypt_act-wG6DWM-wEwm6C4eqN72Dpm55g2S5YCMfFiwC_uyiQUOduHDFbvXqEpaMOKSC5SLgBzstQdNUokIJ6bX0smrPbw.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000694s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001446s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001649s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0009s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0008s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0007s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0009s ]
+
+[ 2018-03-22T13:11:50+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001584s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001814s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0009s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0023s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0023s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.007167s ]
+INFO: [ before_view ] --END-- [ RunTime:0.007339s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000336s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000530s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036604s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000927s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001102s ]
+
+[ 2018-03-22T13:11:51+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001444s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001624s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:11:52+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001059s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001459s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001674s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0024s ]
+SQL: UPDATE `haoxun_user` SET `session_id`='' WHERE `id` = 37 [ RunTime:0.0556s ]
+
+[ 2018-03-22T13:11:53+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001742s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002056s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_setting` [ RunTime:0.0072s ]
+SQL: SELECT `key`,`value` FROM `haoxun_frame_setting` WHERE `status` < 9  [ RunTime:0.0177s ]
+INFO: [ before_view ] --START--
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.001220s ]
+INFO: [ before_view ] --END-- [ RunTime:0.001436s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000220s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000417s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.125024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000088s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2018-03-22T13:11:54+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+
+[ 2018-03-22T13:11:55+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/ajax?q=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001301s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002796s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.003137s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+NOTIC: [8] Undefined variable: logStep G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\System\Controller\HyStartController.class.php 第 56 行.
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.5001s ]
+NOTIC: [2] Missing argument 1 for Common\Model\HyFrameModel::find(), called in G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAccountModel.class.php on line 25 and defined G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 271 行.
+NOTIC: [8] Undefined variable: options G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+NOTIC: [8] Undefined variable: options G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 272 行.
+SQL: SELECT `id`,`name`,`roles`,`user_no`,`password`,`sex`,`birth`,`phone`,`qq`,`email`,`country`,`session_id`,`login_last_time`,`login_times`,`status`,`admission_time`,`area_id`,`avatar_file`,`create_time`,`update_time` FROM `haoxun_user` WHERE `user_no` = '123' AND `status` = 1 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `haoxun_user` SET `login_last_time`='1521695515',`login_times`='402',`session_id`='7bnjpmhniiansetvgpvu3ndd41' WHERE `id` = 37 [ RunTime:0.0494s ]
+NOTIC: [8] Undefined index: college_id G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAccountModel.class.php 第 55 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0007s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0010s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0011s ]
+SQL: INSERT INTO `haoxun_frame_log` (`user_id`,`controller`,`action`,`post`,`description`,`ip`,`create_time`) VALUES ('37','HyStart','ajax','{\"u\":\"EuDKK3lB4JJFV4pH09VVVA==7727003\",\"p\":\"XhGy71C93JCWuozalnOovNRscnSTPyBWJSZbJijkSg5xJ9zJMqyFIeHt7zQKPuC84304715\"}',' >> 登录验证 >> <span class=\'text-success\'>成功</span>','0.0.0.0','1521695515') [ RunTime:0.0004s ]
+
+[ 2018-03-22T13:11:56+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000891s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001448s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001652s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0008s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0004s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0026s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.007304s ]
+INFO: [ before_view ] --END-- [ RunTime:0.007543s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000386s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000589s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036793s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000777s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000083s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000273s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000990s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2018-03-22T13:11:57+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001354s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001545s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001760s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:11:58+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/switchs/role/encrypt_act-NO2l1vZkhcb5yAGa1qelROOBUhJ5jsokXh9E-LhnC_sqjjrQ4tiZ33zZLfPu4HqZIrgjEqmiYol8tKQUwCrJ3A.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000908s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001735s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001889s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002191s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0012s ]
+SQL: SELECT `id`,`name`,`title`,`table` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` IN ('31','32')  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_access` [ RunTime:0.0007s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=32 AND `status`=1 )  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=32 AND `status`=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=31 AND `status`=1 )  [ RunTime:0.0006s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=31 AND `status`=1 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `action_id`,`model` FROM `haoxun_frame_access` WHERE ( `role_id`=10 AND `status`=1 )  [ RunTime:0.0003s ]
+SQL: SELECT `pid` FROM `haoxun_frame_role` WHERE ( `id`=10 AND `status`=1 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+SQL: SELECT `id`,`pid`,`type`,`title`,`name`,`options` FROM `haoxun_frame_action` WHERE `status`=1 AND `id` IN (100000,510000,510100,510101,510102,510103,510104,510105,510106,510107,510108,510109,510110,510301,510302,510303,510304,510305,510306,510400,510401,510402,510403,510404,510405,810000,810100,810101,810102,810103,810104,810105,810106,810107,810108,810109,810110,810111,810112,510200,510300,510206,510205,510204,510203,510202,510201,910000,910100,910101,910102,910103,910104,910105,910106,910200,910201,910202,910203,910204,910205,910300,910301,910302,910303,910304,910305,210000,210100,210101,210102,210200,210201,210202,210103,210203,910306,910307) ORDER BY `rank` DESC [ RunTime:0.0013s ]
+
+[ 2018-03-22T13:11:58+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001202s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001480s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001705s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_log` [ RunTime:0.0008s ]
+SQL: SELECT `create_time` FROM `haoxun_frame_log` WHERE `user_id` = 37 AND `status` = 1 AND `controller` = 'HyStart' AND `action` = 'ajax' AND `description` LIKE '%成功%' ORDER BY id desc LIMIT 2   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_frame_notice` [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+NOTIC: [8] Undefined index: scope G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 247 行.
+NOTIC: [8] Undefined index: count G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 248 行.
+NOTIC: [8] Undefined index: find G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 254 行.
+SQL: SELECT `id`,`title`,`content`,`creator_id`,`file_id`,`create_time`,`update_time`,`status` FROM `haoxun_frame_notice` WHERE `status` = 1 ORDER BY id desc LIMIT 5   [ RunTime:0.0005s ]
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0008s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0005s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.005900s ]
+INFO: [ before_view ] --END-- [ RunTime:0.006075s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000325s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000527s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046672s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046915s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000824s ]
+INFO: [ action_end ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000135s ]
+INFO: [ action_end ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001868s ]
+
+[ 2018-03-22T13:12:00+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyChat/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001738s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001984s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'haoxun_express2.haoxun_frame_chat' doesn't exist
+
+[ 2018-03-22T13:13:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=TLUN2pHZCOQRNsm2iB%2FOLNRxgqm79aWx3BkmZkDngo0%3D3825962
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001484s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001659s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:14:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=wHl73Mn%2FiZXkhLhYoqYOgbGBaT7%2Fw4bcAtKRSFcDyUs%3D3993622
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000875s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001633s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001828s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:15:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=wdVHtTty%2FYEMT6ji%2FNCCX05jIBt2DSIVRiOE37fP2DI%3D1805634
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000620s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001516s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001695s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:16:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=9CX6Be1Zv134Z9KPpHKdGNL0%2BlET1CPaExYfKp2biqo%3D7395050
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001232s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001660s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001855s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:17:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=Oq%2BxiJV7zQwsb44PbBO9PvVWW9QqBP1h0XUFI38Yo4Y%3D1737128
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001593s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001783s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:18:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=gJHVdhXLUnYEtLTjJeg1szb5868InatAOjerhvAIIxQ%3D6748299
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001684s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001874s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:19:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=lkMYEULsYeQcFACcQIJsQEW9P86ouhSYmV2igQJodLg%3D7875146
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001658s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001837s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:20:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=7xpeGhCWh8KDVHmzemWR4Uy%2FTKT6cR8C21UleelDkbg%3D8338274
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000923s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002048s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002287s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:21:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=63rlcFs0abcCfCBXzjbgwPVGjnnEh5xSD1nxRjx%2BvvM%3D7947127
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001509s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001478s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001653s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:22:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=XCXRsQK%2Fs4Gom20qL5%2BItwCq6prb8mCwF4UtGW5Y8jM%3D7623236
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001126s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001658s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001850s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:23:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=ZaucbKBbemDTvQ%2F2NJ19fEvRM7rTnGqL81NERVQ7140%3D6548390
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000852s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001684s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001876s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:24:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=zUS2ghtuqsytAqtwHRQp5EZWeQzhN%2Fp2IG34%2BUDPXK0%3D7755628
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002274s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002515s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:25:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=%2BtkPXze%2FlV7F6y62rLLw0b87DHsC0a6JNZIn88e2QgI%3D1412800
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001472s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002475s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.003614s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.004077s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+
+[ 2018-03-22T13:26:25+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/System/HyStart/online?keepTry=NCVInVGS5WsLjGiCa9HXWrCoIdbos4So91m4BeP8nAQ%3D3693824
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002420s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002691s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined index: model G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Controller\HyFrameController.class.php 第 42 行.
+

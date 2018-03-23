@@ -9,6 +9,11 @@
   
 可在 Application/common/config 最上面配置
 
+## 后台登录
+你当前项目的路径 + /index.php/System/HyStart/login.html;
+用户名：123
+密码：123123
+
 ## jQ:
 前后端动画
 ## Boostrap：

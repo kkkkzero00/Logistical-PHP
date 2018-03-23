@@ -239,9 +239,9 @@
 var _ROOT_ = '/framework/gitTest/Logistical-PHP',
     _PUBLIC_ = '/framework/gitTest/Logistical-PHP/Public',
     _INDEX_ = '/framework/gitTest/Logistical-PHP/index.php',
-    _ACTION_ = '/framework/gitTest/Logistical-PHP/index.php/Send/SendOrder/all',
-    _MODULE_ = '/framework/gitTest/Logistical-PHP/index.php/Send',
-    _CONTROLLER_ = '/framework/gitTest/Logistical-PHP/index.php/Send/SendOrder';
+    _ACTION_ = '/framework/gitTest/Logistical-PHP/index.php/Payment/WeChat/all',
+    _MODULE_ = '/framework/gitTest/Logistical-PHP/index.php/Payment',
+    _CONTROLLER_ = '/framework/gitTest/Logistical-PHP/index.php/Payment/WeChat';
 </script>
 <!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>

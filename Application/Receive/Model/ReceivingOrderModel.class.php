@@ -335,24 +335,21 @@ class ReceivingOrderModel extends HyAllModel {
                 $json['info'] = '快递单号不合法！';              
                 return;
         }
-        else{
-            $res = $this->where(array('status'=>1,'courier_number'=>array('eq',$courier_number)))->find();
-            // dump($res);
-            if(is_null($res)||$res == false){  
-                $data['create_time'] = time();
-                $data['area_id'] = self::$area['area_id'];
-                $this->add($data);
-                $json['status'] = true;
-                $json['info'] = '入库成功！';
-                return;
-            }else{
-                $json['status'] = false;
-                $json['info'] = '该单号已存在！';
-                return ;
-            }
 
-            
+        $res = $this->where(array('status'=>1,'courier_number'=>array('eq',$courier_number)))->find();
+        // dump($res);
+        if(is_null($res)||$res == false){  
+            $data['create_time'] = time();
+            $data['area_id'] = self::$area['area_id'];
+            $this->add($data);
+            $json['status'] = true;
+            $json['info'] = '入库成功！';
+            return;
         }
+        
+        $json['status'] = false;
+        $json['info'] = '该单号已存在！';
+        return ;
     	
     }
 

@@ -1,0 +1,150 @@
+[ 2018-03-22T13:10:41+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/User/User/all.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000804s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.001441s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.001648s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: areaTab G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\User\Model\UserModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: rolesTab G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\User\Model\UserModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0007s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000124s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000301s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000171s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000167s ]
+NOTIC: [8] Undefined index: all G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 1040 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: list G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: list G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+SQL: SELECT `id`,`title` FROM `haoxun_frame_role` WHERE `status` = 1 ORDER BY id desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: type G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+SQL: SELECT `id`,`area_name` FROM `haoxun_area_manage` WHERE `status` = 1  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 426 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 427 行.
+NOTIC: [8] Undefined index: search G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 429 行.
+NOTIC: [8] Undefined index: form G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 433 行.
+NOTIC: [8] Undefined index: initJS G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 357 行.
+INFO: [ before_view ] --START--
+SQL: SHOW COLUMNS FROM `haoxun_frame_alert` [ RunTime:0.0022s ]
+SQL: SELECT `id`,`category`,`icon`,`message`,`url`,`type`,`create_time` FROM `haoxun_frame_alert` where `to_users` LIKE '%,37,%' AND ( IFNULL(`read_users`,'')='' OR `read_users` NOT LIKE '%,37,%') AND `status`=1 ORDER BY `id` DESC [ RunTime:0.0004s ]
+INFO: Run Common\Behavior\HyBeforeViewBehavior [ RunTime:0.006530s ]
+INFO: [ before_view ] --END-- [ RunTime:0.006697s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000341s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000538s ]
+NOTIC: [8] Undefined variable: _middle G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\User\9c07dc003a2105c82c74ba68c02f614c.php 第 199 行.
+NOTIC: [8] Undefined variable: _bottom G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\User\9c07dc003a2105c82c74ba68c02f614c.php 第 218 行.
+NOTIC: [8] Undefined variable: _script G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\User\9c07dc003a2105c82c74ba68c02f614c.php 第 277 行.
+NOTIC: [8] Undefined variable: hyMenu G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Runtime\Cache\User\9c07dc003a2105c82c74ba68c02f614c.php 第 290 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063203s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000630s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000864s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001048s ]
+
+[ 2018-03-22T13:10:42+08:00 ] ::1 /framework/gitTest/Logistical-PHP/index.php/User/User/ajax?q=list
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\HomyitCore\Library\Think\Session\Driver\Db.class.php 第 95 行.
+INFO: [ action_begin ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.002533s ]
+INFO: [ action_begin ] --END-- [ RunTime:0.002859s ]
+NOTIC: [2048] Declaration of Common\Model\HyFrameModel::find() should be compatible with Think\Model::find($options = Array) G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 13 行.
+NOTIC: [8] Undefined variable: areaTab G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\User\Model\UserModel.class.php 第 20 行.
+SQL: SHOW COLUMNS FROM `haoxun_area_manage` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: rolesTab G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\User\Model\UserModel.class.php 第 24 行.
+SQL: SHOW COLUMNS FROM `haoxun_frame_role` [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `haoxun_user` [ RunTime:0.0007s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined variable: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 31 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000109s ]
+INFO: [ hy_log ] --END-- [ RunTime:0.000254s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000150s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.000145s ]
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+NOTIC: [8] Undefined index: limit G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 160 行.
+NOTIC: [8] Undefined index: order G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 162 行.
+NOTIC: [8] Undefined variable: field G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 181 行.
+NOTIC: [8] Undefined index: where G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 189 行.
+NOTIC: [8] Undefined index: decrypt G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 241 行.
+SQL: SELECT 1 FROM `haoxun_user` WHERE `status` = 1  [ RunTime:0.0003s ]
+INFO: [ hy_log ] --START--
+NOTIC: [8] Undefined index: style G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 23 行.
+NOTIC: [8] Undefined index: sql G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Behavior\HyLogBehavior.class.php 第 25 行.
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000150s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.002077s ]
+NOTIC: [8] Undefined index: hy G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 140 行.
+NOTIC: [8] Undefined index: associate G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyFrameModel.class.php 第 141 行.
+SQL: SELECT `id`,`name`,`roles`,`user_no`,`password`,`sex`,`birth`,`phone`,`qq`,`email`,`country`,`session_id`,`login_last_time`,`login_times`,`status`,`admission_time`,`area_id`,`avatar_file`,`create_time`,`update_time` FROM `haoxun_user` WHERE `status` = 1 ORDER BY id desc LIMIT 10   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: list G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: hidden G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: title G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 679 行.
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: list G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: list G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: {callback} G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 920 行.
+SQL: SELECT `title` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` = 31 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `title` FROM `haoxun_frame_role` WHERE `status` = 1 AND `id` = 32 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: callback G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 689 行.
+NOTIC: [8] Undefined index: {callback} G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 920 行.
+SQL: SELECT `area_name` FROM `haoxun_area_manage` WHERE `status` = 1 AND `id` = 1 LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: {callback} G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 920 行.
+NOTIC: [8] Undefined index: {callback} G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 920 行.
+NOTIC: [8] Undefined index: {callback} G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 920 行.
+NOTIC: [8] Undefined index: {callback} G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 920 行.
+NOTIC: [8] Undefined index: info G:\PHP\wamp64\www\framework\gitTest\Logistical-PHP\Application\Common\Model\HyAllModel.class.php 第 471 行.
+INFO: [ hy_log ] --START--
+INFO: Run Common\Behavior\HyLogBehavior [ RunTime:0.000082s ]
+INFO: [ hy_log ] --END-- [ RunTime:-0.011713s ]
+

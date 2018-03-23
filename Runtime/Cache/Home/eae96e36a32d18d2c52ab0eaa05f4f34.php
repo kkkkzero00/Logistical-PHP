@@ -11,23 +11,14 @@
 <link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
 	
     <link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
-   
    <style>
-   	.container-totton-con table tr td:first-child{
-		width: 30%;
+   	.information table td a{
+   		margin-right: 10px;
    	}
-     @media screen and (max-width: 960px) {
-      .orderrow{
-        width: 100%;
-        margin: 0 auto;
-      }
-     }
-     @media screen and (min-width: 960px) {
-      .orderrow{
-        width: 80%;
-        margin: 0 auto;
-      }
-     }
+   	td:first-child{
+   		text-align: center;
+   		font-size: 1.1em;
+   	}
    </style>
    
 
@@ -105,7 +96,7 @@
 	<div id="main">
 		
     <div class="containers" style="margin: 0;padding: 0">
-	<div class="row">
+	<div class="row" style="margin: 0;padding: 0">
 		<div class="col-md-12" style="margin: 0;padding: 0">
 			<div  class="index-center">
 				<div class="index-center-img"><img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
@@ -119,37 +110,104 @@
 </div>		
 	
 	<div class="container">
-		<div class="row orderrow" >
+		<div class="row" style="width: 80%;margin: 0 auto;">
 			<div class="col-md-12">
 
 				<div class="container-botton">
 
-<div class="container-totton-con">
-			<div class="bottontitle"><span class="bottontitle-span1">加入合作</span><span class="bottontitle-span2">合作共赢<span></div>
-			<div class="joinmessage">
-				<table class="table" style="width: 80%;margin: 0 auto;">
-					<tr>
-						<td>全国加盟热线：</td>
-						<td>0791-86862855</td>
-					</tr>
-					<tr>
-						<td>邮箱：</td>
-						<td>bangdage2017@163.com</td>
-					</tr>
-					<tr>
-						<td >地址及联系方式：</td>
-						<td>江西省南昌市东湖区证券街紫金城红郡-西4门</td>
-					</tr>
-					
-					
-					<tr>
-						<td>如有疑问可以直接联系在线客服：</td>
-						<td><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=121663757&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:121663757:51" alt="点击这里给我发消息" title="点击这里给我发消息"/></a></td>
-					</tr>
-				</table>
+<div class="container-totton-con" style="min-height: 400px;">
 
-			</div>
+			<div class="bottontitle"><span class="bottontitle-span1">详细订单信息</span></div>
+			
+  
+  		<div class="information" style="margin-top: 15px;">
+			
+	<table class="table table-hover" style="table-layout:fixed;width: 85%; margin:0 auto;">
+		<tr>
+			<td colspan="2" style="text-align: center;font-size: 1.2em;font-weight: 600">寄件人信息</td>
+		</tr>
+		<tr>
+			<td>寄件人姓名：</td>
+			<td><?php echo ($info['sender']); ?></td>
+		</tr>
+		<tr>
+			<td>寄件人手机号：</td>
+			<td><?php echo ($info['sender_phone']); ?></td>
+		</tr>
+		<?php if(!empty($$info['sender_company'])): ?><tr>
+			<td>寄件单位：</td>
+			<td><?php echo ($info['sender_company']); ?></td>
+		</tr><?php endif; ?>
 		
+		<tr>
+			<td>取件方式备注：</td>
+			<td><?php echo ($info['fetchgoods_remarks']); ?></td>
+		</tr>
+		<?php if(!empty($$info['area_name'])): ?><tr>
+			<td>网点：</td>
+			<td><?php echo ($info['area_name']); ?></td>
+		</tr><?php endif; ?>
+		
+		<tr>
+			<td>寄件地址：</td>
+			<td><?php echo ($info['sender_address']); ?></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>	
+		<tr>
+			<td colspan="2" style="text-align: center;font-size: 1.2em;font-weight: 600">收件人信息</td>
+		</tr>
+		<tr>
+			<td>收件人姓名：</td>
+			<td><?php echo ($info['receiver']); ?></td>
+		</tr>
+		<tr>
+			<td>收件人手机号：</td>
+			<td><?php echo ($info['receiving_phone']); ?></td>
+		</tr>
+<?php if(!empty($$info['receiving_company'])): ?><tr>
+			<td>收件单位：</td>
+			<td><?php echo ($info['receiving_company']); ?></td>
+		</tr><?php endif; ?>
+		
+		<tr>
+			<td>收货地址：</td>
+			<td><?php echo ($info['receiving_address']); ?></td>
+		</tr>
+		<tr>
+			<td colspan="2"></td>
+		</tr>	
+		<tr>
+			<td colspan="2" style="text-align: center;font-size: 1.2em;font-weight: 600">快递信息</td>
+		</tr>
+		<?php if(!empty($$info['name'])): ?><tr>
+			<td>快递公司：</td>
+			<td><?php echo ($info['name']); ?></td>
+		</tr><?php endif; ?>
+		
+		<tr>
+			<td>预计重量：</td>
+			<td><?php echo ($info['sender_estimated_weight']); ?></td>
+		</tr>
+		<tr>
+			<td>取件备注：</td>
+			<td><?php echo ($info['express_remarks']); ?></td>
+		</tr>
+	</table>
+		
+
+
+		</div>
+
+	
+
+
+
+
+
+
+
 </div>
 
 </div>
@@ -204,24 +262,10 @@
 <script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 
-	<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/catgroyd/jquery.material-cards.js" type="text/javascript"></script>
 	<script type="text/javascript">
-		$(function() {
-			$('.material-card').materialCard({
-				icon_close: 'fa-chevron-left',
-				icon_open: 'fa-thumbs-o-up',
-				icon_spin: 'fa-spin-fast',
-				card_activator: 'click'
-			});
-
-	//        $('.active-with-click .material-card').materialCard();
-
-
-			$('.material-card').on('shown.material-card show.material-card hide.material-card hidden.material-card', function (event) {
-				console.log(event.type, event.namespace, $(this));
-			});
-
-		});
+		function setaddr() {
+			$
+		}
 	</script>
 
 

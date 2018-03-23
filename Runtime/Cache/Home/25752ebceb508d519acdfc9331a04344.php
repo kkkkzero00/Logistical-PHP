@@ -5,12 +5,12 @@
 	<meta http-equiv="X-UA-COMPATIBLE">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>快递</title>
-	<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
-	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/haoxun/Public/assets/global/img/public/logo.png" media="screen" />
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/frameset.css" type="text/css">
-<link rel="stylesheet" href="/framework/gitTest/haoxun/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
+	<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/css/bootstrap.min.css" type="text/css">
+	<link rel="shortcut icon" type="image/x-icon" href="/framework/gitTest/Logistical-PHP/Public/assets/global/img/public/logo.png" media="screen" />
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/frameset.css" type="text/css">
+<link rel="stylesheet" href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/frameset/iconfont.css" type="text/css">
 	
-    <link href="/framework/gitTest/haoxun/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
+    <link href="/framework/gitTest/Logistical-PHP/Public/assets/global/styles/order/order.css" rel="stylesheet" type="text/css">
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
     <title>昊迅快递有限公司</title>
@@ -112,47 +112,34 @@
 	<div id="main">
 		
     <div class="containers" style="margin: 0;padding: 0">
-	<div class="row" style="margin: 0;padding: 0">
-		<div class="col-md-12" style="margin: 0;padding: 0">
-			<div  class="index-center">
-				<div class="index-center-img"><img src="/framework/gitTest/haoxun/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;"></div>
-			
-			</div>
-		</div>
-	</div>
-	
-	
-
-</div>		
+    	<div class="row" style="margin: 0;padding: 0">
+    		<div class="col-md-12" style="margin: 0;padding: 0">
+    			<div  class="index-center">
+    				<div class="index-center-img">
+              <img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/category/nav.jpg" alt="" style="width: 100%;height: 100%;">
+            </div>
+    			</div>
+    		</div>
+    	</div>
+    </div>		
 	
 	<div class="container">
 		<div class="row orderrow">
 			<div class="col-md-12 col-sm-12">
-
 				<div class="container-botton">
-
-<div class="container-totton-con">
-
-			<div class="bottontitle"><span class="bottontitle-span1">网点分布地图</span><span class="bottontitle-span2">查看网点位置<span></div>
-		
-	 <!--百度地图容器-->
-     <div style="width:95%;height:550px;border:#ccc solid 1px;font-size:12px;margin:15px auto;" id="map"></div>
-
-
-
-</div>
-
-</div>
-
-</div>
+            <div class="container-totton-con">
+      			  <div class="bottontitle">
+                <span class="bottontitle-span1">网点分布地图</span>
+                <span class="bottontitle-span2">查看网点位置</span>
+              </div>
+      		
+        	    <!--百度地图容器-->
+              <div style="width:95%;height:550px;border:#ccc solid 1px;font-size:12px;margin:15px auto;" id="map"></div>
+            </div>
+        </div>
+      </div>
 		</div>
 	</div>
-	
-	
-
-
-
-
 
 	</div>
 
@@ -172,7 +159,7 @@
 				<div class="linkus">
 					<div>关注我们</div>
 					<div style="margin-top: 5px;">
-						<img src="/framework/gitTest/haoxun/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
+						<img src="/framework/gitTest/Logistical-PHP/Public/assets/global/img/index/weixin.jpg" alt="微信" style="margin-right:5px ">
 						
 					</div>
 				</div>
@@ -189,9 +176,9 @@
 		</div>
 	</footer>
 </body>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
-<script src="/framework/gitTest/haoxun/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/scripts/jquery.cookie.js" type="text/javascript"></script>
+<script src="/framework/gitTest/Logistical-PHP/Public/assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 
 	<script type="text/javascript">
@@ -207,9 +194,9 @@
       map.centerAndZoom(new BMap.Point(115.91645,28.709024),18);
     }
     function setMapEvent(){
-      map.enableScrollWheelZoom();
+      map.enableScrollWheelZoom();//启用滚轮放大缩小
       map.enableKeyboard();
-      map.enableDragging();
+      map.enableDragging();//启用拖放
       map.enableDoubleClickZoom()
     }
     function addClickHandler(target,window){
@@ -249,7 +236,7 @@
       map.addControl(overviewControl);
     }
     var map;
-      initMap();
+    initMap();
   </script>
 
 
